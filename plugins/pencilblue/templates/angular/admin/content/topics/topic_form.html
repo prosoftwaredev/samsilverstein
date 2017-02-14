@@ -1,0 +1,40 @@
+<script type="text/javascript" src="/js/angular/services/form_validation.js"></script>
+<script type="text/javascript">
+    angular.module('pencilblueApp', ['validation'])
+    .controller('PencilBlueController', function($scope, $http, $timeout, validationService) {
+        ^angular_objects^
+        ^tmp_angular=admin=elements=is_field_valid^
+        ^tmp_angular=admin=elements=error_success^
+
+        $scope.saveTopic = function() {
+            $scope.formSubmitted = true;
+
+            if(!validationService.isFormValid($scope.topicForm)) {
+                return;
+            }
+
+            $scope.saving = true;
+
+            var url = '/api/content/topics';
+            var action = 'post';
+            if($scope.topic._id) {
+                url += '/' + $scope.topic._id;
+                action = 'put';
+            }
+
+            $http[action](url, $scope.topic)
+            .success(function(result) {
+                $scope.successMessage = result.message;
+                if(!$scope.topic._id) {
+                    $scope.topic = {};
+                    $scope.formSubmitted = false;
+                }
+                $scope.saving = false;
+            })
+            .error(function(error, status) {
+                $scope.errorMessage = error.message;
+                $scope.saving = false;
+            });
+        };
+    });
+</script>

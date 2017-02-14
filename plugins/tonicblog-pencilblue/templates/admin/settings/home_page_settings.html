@@ -1,0 +1,40 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    ^tmp_admin=elements=error_success^
+    ^tmp_admin=elements=sub_nav^
+    ^tmp_admin=elements=tab_nav^
+    <form name="homePageForm" ng-submit="saveHomePage()" novalidate>
+        <fieldset>
+            <div class="tab-content">
+                <div class="tab-pane active" id="home_layout">
+                    ^tmp_admin=elements=hero_upload^
+                    <div class="form-group">
+                        <label>^loc_HERO_HEADER^</label>
+                        <input type="text" class="form-control" ng-model="homePageSettings.hero_header"></input>
+                    </div>
+                    <div class="form-group">
+                        <label>^loc_HERO_COPY^</label>
+                        <input type="text" class="form-control" ng-model="homePageSettings.hero_copy"></input>
+                    </div>
+                    <div class="form-group">
+                        <label>^loc_CONTENT^&nbsp;<span id="column_inches"></span></label>
+                        <wysiwyg layout="layout" media="homePageSettings.page_media"></wysiwyg>
+                    </div>
+                </div>
+                <div class="tab-pane" id="media">
+                    ^tmp_admin=elements=inline_media^
+                </div>
+                <a class="btn btn-default" href="/admin/plugins/portfolio/settings">
+                    <i class="fa fa-ban"></i>&nbsp;^loc_CANCEL^
+                </a>
+                ^tmp_admin=elements=save_button^
+            </div>
+        </fieldset>
+    </form>
+    <div id="hero_images_template" style="display: none">
+
+    </div>
+</div>
+^tmp_admin=elements=wysiwyg_scripts^
+^tmp_angular=admin=settings=home_page_settings^
+^tmp_admin=footer^

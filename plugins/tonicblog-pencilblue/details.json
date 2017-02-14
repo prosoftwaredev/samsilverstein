@@ -1,0 +1,69 @@
+{
+    "uid": "tonicblog-pencilblue",
+    "name": "Tonicblog Theme",
+    "description": "A PencilBlue blogger theme with thumbnail article sidebar.",
+    "version": "0.0.1",
+    "pb_version": ">=0.5.x <1.x",
+    "author": {
+        "name": "H5 GLOBAL SOLUTIONS PVT LTD",
+        "email": "ravindra@h5.gs",
+        "website": "http://www.h5.gs/",
+        "contributors": [
+			{	"name": "Belavadi Ramesh",
+				"email": "raga2560@yahoo.com"
+		    },
+            {
+                "name": "Ganesh Babu",
+                "email": "kpawan4u@gmail.com"
+            },
+			{
+                "name": "Prahalad Belavadi",
+                "email": ""
+            }
+        ]
+    },
+    "settings": [
+	    {
+            "name": "show_side_navigation",
+            "value": true
+        },
+        {
+            "name": "home_page_keywords",
+            "value": "pencilblue,tonicblog,theme,plugin"
+        },
+        {
+            "name": "home_page_description",
+            "value": "This is the landing page of the PencilBlue tonicblog theme plugin."
+        },
+        {
+            "name": "github_id",
+            "value": "pencilblue"
+        },
+        {
+            "name": "twitter_id",
+            "value": "GetPencilBlue"
+        }
+    ],
+    "permissions": {
+        "ACCESS_USER": [],
+        "ACCESS_WRITER": [],
+        "ACCESS_EDITOR": [],
+        "ACCESS_MANAGING_EDITOR": []
+    },
+    "main_module": {
+        "path": "tonicblog.js"
+    },
+    "dependencies": {
+        "async": "0.9.0"
+    },
+    "theme": {
+        "settings": [],
+        "content_templates":
+        [
+            {
+                "file": "index",
+                "name": "Blog"
+            }
+        ]
+    }
+}

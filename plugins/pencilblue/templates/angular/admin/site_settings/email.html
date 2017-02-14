@@ -1,0 +1,53 @@
+<script type="text/javascript" src="/js/angular/directives/wysiwyg.js"></script>
+<script type="text/javascript">
+    angular.module('pencilblueApp', ['wysiwygElement'])
+    .controller('PencilBlueController', function($scope, $http, $sce, $timeout) {
+        ^angular_objects^
+        ^tmp_angular=admin=elements=error_success^
+
+        $scope.layout = $sce.trustAsHtml($scope.emailSettings.verification_content);
+        $scope.hideMediaButton = true;
+
+        $scope.setEmailValue = function(key, value) {
+            $scope.emailSettings[key] = value;
+        };
+
+        $scope.sendTestEmail = function() {
+            if(!$scope.testEmailAddress || !$scope.testEmailAddress.length) {
+                return;
+            }
+
+            $scope.emailTestSuccess = null;
+            $scope.emailTestFailure = null;
+            $scope.sendingEmail = true;
+
+            $http.post('/api/admin/site_settings/email/send_test', {email: $scope.testEmailAddress})
+            .success(function(result) {
+                $scope.emailTestSuccess = true;
+                $scope.sendingEmail = false;
+            })
+            .error(function(error, status) {
+                $scope.emailTestFailure = error.message;
+                $scope.sendingEmail = false;
+            });
+        }
+
+        $scope.saveEmailSettings = function() {
+            $scope.saving = true;
+
+            $scope.emailSettings.verification_content = $scope.layout;
+
+            $http.post('/actions/admin/site_settings/email', $scope.emailSettings)
+            .success(function(result) {
+                $scope.successMessage = result.message;
+                $scope.saving = false;
+            })
+            .error(function(error, status) {
+                $scope.errorMessage = error.message;
+                $scope.saving = false;
+            });
+        };
+
+        $('[data-toggle="tooltip"]').tooltip({'placement': 'bottom'}).css({'cursor': 'pointer'});
+    });
+</script>

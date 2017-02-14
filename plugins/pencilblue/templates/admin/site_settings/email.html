@@ -1,0 +1,104 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    ^tmp_admin=elements=error_success^
+    ^tmp_admin=elements=sub_nav^
+    ^tmp_admin=elements=tab_nav^
+    <form name="emailForm" ng-submit="saveEmailSettings()" novalidate>
+        <fieldset>
+            <div class="tab-content">
+                <div class="tab-pane active" id="preferences">
+                    <div class="form-group">
+                        <label>^loc_site_settings.FROM_NAME^</label>
+                        <input type="text" class="form-control" ng-model="emailSettings.from_name"/>
+                    </div>
+                    <div class="form-group">
+                        <label>^loc_site_settings.FROM_ADDRESS^</label>
+                        <input type="text" class="form-control" ng-model="emailSettings.from_address"/>
+                    </div>
+                    <div class="form-group">
+                        <label>^loc_site_settings.VERIFICATION_SUBJECT^</label>
+                        <input type="text" class="form-control" ng-model="emailSettings.verification_subject"/>
+                    </div>
+                    <div class="form-group">
+                        <label>^loc_site_settings.VERIFICATION_CONTENT^</label>&nbsp;
+                        <i class="fa fa-info-circle" data-toggle="tooltip" data-placement="bottom" title="^loc_site_settings.EMAIL_DIRECTIVES_DESCRIPTION^"></i>
+                        <div id="email_wysiwyg">
+                            <wysiwyg layout="layout"></wysiwyg>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="smtp">
+                    <div class="form-group">
+                        <label>^loc_site_settings.SERVICE^</label>
+                        <select class="form-control" ng-model="emailSettings.service">
+                            <option value="custom">^loc_site_settings.CUSTOM^</option>
+                            <option value="Gmail">Gmail</option>
+                            <option value="Yahoo">Yahoo</option>
+                            <option value="Hotmail">Hotmail</option>
+                            <option value="DynectEmail">DynectEmail</option>
+                            <option value="iCloud">iCloud</option>
+                            <option value="mail.ee">mail.ee</option>
+                            <option value="Mail.Ru">Mail.Ru</option>
+                            <option value="Mailgun">Mailgun</option>
+                            <option value="Mailjet">Mailjet</option>
+                            <option value="Postmark">Postmark</option>
+                            <option value="SendGrid">SendGrid</option>
+                            <option value="SES">SES</option>
+                            <option value="yandex">yandex</option>
+                            <option value="Zoho">Zoho</option>
+                        </select>
+                    </div>
+                    <div ng-if="emailSettings.service === 'custom'">
+                        <div class="form-group">
+                            <label>^loc_site_settings.HOST^</label>
+                            <input type="text" class="form-control" ng-model="emailSettings.host"/>
+                        </div>
+                        <div class="form-group">
+                            <label>^loc_site_settings.SECURE_CONNECTION^</label><br/>
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default" ng-class="{'active': emailSettings.secure_connection}" ng-click="setEmailValue('secure_connection', true)">^loc_generic.YES^</button>
+                                <button type="button" class="btn btn-default" ng-class="{'active': !emailSettings.secure_connection}" ng-click="setEmailValue('secure_connection', false)">^loc_generic.NO^</button>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>^loc_site_settings.PORT^</label>
+                            <input type="number" class="form-control" ng-model="emailSettings.port" step="1" min="0"/>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>^loc_generic.USERNAME^</label>
+                        <input type="text" class="form-control" autocomplete="off" ng-model="emailSettings.username"/>
+                    </div>
+                    <div class="form-group">
+                        <label>^loc_generic.PASSWORD^</label>
+                        <input type="password" class="form-control" autocomplete="off" ng-model="emailSettings.password"/>
+                    </div>
+                </div>
+                <div class="tab-pane" id="test">
+                    <div class="form-group">
+                        <label>^loc_site_settings.SEND_TEST_EMAIL^</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="^loc_generic.EMAIL^" ng-model="testEmailAddress"/>
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default" ng-click="sendTestEmail()">
+                                    <i class="fa fa-send" ng-class="{'fa-send': !sendingEmail, 'fa-circle-o-notch fa-spin': sendingEmail}"></i>&nbsp;^loc_site_settings.SEND^
+                                </button>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="alert" ng-class="{'alert-success': emailTestSuccess, 'alert-danger': emailTestFailure}" ng-if="emailTestSuccess || emailTestFailure">
+                        <span ng-if="emailTestSuccess">^loc_site_settings.TEST_EMAIL_SUCCESS^</span>
+                        <span ng-if="emailTestFailure" ng-bind="emailTestFailure"></span>
+                    </div>
+                </div>
+                <a class="btn btn-default" href="/admin/site_settings">
+                    <i class="fa fa-ban"></i>&nbsp;^loc_generic.CANCEL^
+                </a>
+                ^tmp_admin=elements=save_button^
+            </div>
+        </fieldset>
+    </form>
+</div>
+^tmp_admin=elements=wysiwyg_scripts^
+^tmp_angular=admin=site_settings=email^
+^tmp_admin=footer^

@@ -1,0 +1,170 @@
+{
+	"_id" : "c818dcc8-6219-4cdf-8851-2eb951786f2a",
+	"error" : null,
+	"id" : "c818dcc8-6219-4cdf-8851-2eb951786f2a",
+	"last_modified" : ISODate("2017-02-13T10:51:27.774-05:00"),
+	"name" : "INSTALL_PLUGIN_coderblog-theme",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "fa3d52e8-1484-4247-ae9a-71278a601810",
+	"error" : null,
+	"id" : "fa3d52e8-1484-4247-ae9a-71278a601810",
+	"last_modified" : ISODate("2017-02-13T10:55:33.765-05:00"),
+	"name" : "UNINSTALL_PLUGIN_coderblog-theme",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "0df35efb-5211-46c2-8de3-f21ccf571271",
+	"error" : null,
+	"id" : "0df35efb-5211-46c2-8de3-f21ccf571271",
+	"last_modified" : ISODate("2017-02-13T10:56:07.599-05:00"),
+	"name" : "INSTALL_PLUGIN_tonicblog-pencilblue",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "9dd2c973-708a-4c4a-9df3-37f0b3c4a3ad",
+	"error" : "Error: A failure occurred while performing tasks across remote processes.  Check the job log for more details: Error: Failed to publish the command to the cluster\n    at /home/dev/pencilblue/include/system/command/command_service.js:372:36\n    at /home/dev/pencilblue/include/system/command/command_service.js:472:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:726:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:52:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:269:32\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:44:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:723:17\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:167:37\n    at /home/dev/pencilblue/node_modules/fakeredis/main.js:184:5\n    at Timeout._onTimeout (/home/dev/pencilblue/node_modules/fakeredis/lib/connection.js:343:18)\n    at /home/dev/pencilblue/include/service/jobs/cluster_job_runner.js:203:34\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:726:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:52:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:269:32\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:44:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:723:17\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:167:37\n    at /home/dev/pencilblue/include/system/command/command_service.js:330:25\n    at /home/dev/pencilblue/include/system/command/command_service.js:372:25\n    at /home/dev/pencilblue/include/system/command/command_service.js:472:13",
+	"id" : "9dd2c973-708a-4c4a-9df3-37f0b3c4a3ad",
+	"last_modified" : ISODate("2017-02-13T11:08:00.685-05:00"),
+	"name" : "INSTALL_PLUGIN_portfolio",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "ERRORED"
+},
+{
+	"_id" : "8f9a44fe-f2c9-4ed8-bdfc-f86a1fb9ff4c",
+	"error" : "Error: A failure occurred while performing tasks across remote processes.  Check the job log for more details: Error: Failed to publish the command to the cluster\n    at /home/dev/pencilblue/include/system/command/command_service.js:372:36\n    at /home/dev/pencilblue/include/system/command/command_service.js:472:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:726:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:52:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:269:32\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:44:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:723:17\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:167:37\n    at /home/dev/pencilblue/node_modules/fakeredis/main.js:184:5\n    at Timeout._onTimeout (/home/dev/pencilblue/node_modules/fakeredis/lib/connection.js:343:18)\n    at /home/dev/pencilblue/include/service/jobs/cluster_job_runner.js:203:34\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:726:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:52:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:269:32\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:44:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:723:17\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:167:37\n    at /home/dev/pencilblue/include/system/command/command_service.js:330:25\n    at /home/dev/pencilblue/include/system/command/command_service.js:372:25\n    at /home/dev/pencilblue/include/system/command/command_service.js:472:13",
+	"id" : "8f9a44fe-f2c9-4ed8-bdfc-f86a1fb9ff4c",
+	"last_modified" : ISODate("2017-02-13T11:08:19.630-05:00"),
+	"name" : "INSTALL_PLUGIN_devblog-pencilblue",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "ERRORED"
+},
+{
+	"_id" : "4424dad5-c0cd-48ea-91a1-47fac6a8facd",
+	"error" : "Error: A failure occurred while performing tasks across remote processes.  Check the job log for more details: Error: Failed to publish the command to the cluster\n    at /home/dev/pencilblue/include/system/command/command_service.js:372:36\n    at /home/dev/pencilblue/include/system/command/command_service.js:472:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:726:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:52:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:269:32\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:44:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:723:17\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:167:37\n    at /home/dev/pencilblue/node_modules/fakeredis/main.js:184:5\n    at Timeout._onTimeout (/home/dev/pencilblue/node_modules/fakeredis/lib/connection.js:343:18)\n    at /home/dev/pencilblue/include/service/jobs/cluster_job_runner.js:203:34\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:726:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:52:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:269:32\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:44:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:723:17\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:167:37\n    at /home/dev/pencilblue/include/system/command/command_service.js:330:25\n    at /home/dev/pencilblue/include/system/command/command_service.js:372:25\n    at /home/dev/pencilblue/include/system/command/command_service.js:472:13",
+	"id" : "4424dad5-c0cd-48ea-91a1-47fac6a8facd",
+	"last_modified" : ISODate("2017-02-13T11:08:39.729-05:00"),
+	"name" : "INSTALL_PLUGIN_coderblog-theme",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "ERRORED"
+},
+{
+	"_id" : "e8718077-711f-42d8-b005-96f0247e279e",
+	"error" : null,
+	"id" : "e8718077-711f-42d8-b005-96f0247e279e",
+	"last_modified" : ISODate("2017-02-13T11:09:25.104-05:00"),
+	"name" : "INSTALL_PLUGIN_devblog-pencilblue",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "b214259f-7fd2-473e-9921-e08f86a7394b",
+	"error" : null,
+	"id" : "b214259f-7fd2-473e-9921-e08f86a7394b",
+	"last_modified" : ISODate("2017-02-13T11:09:31.346-05:00"),
+	"name" : "INSTALL_PLUGIN_jennifer",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "00b55caa-d15c-4eb8-a404-08012e202f03",
+	"error" : null,
+	"id" : "00b55caa-d15c-4eb8-a404-08012e202f03",
+	"last_modified" : ISODate("2017-02-13T11:09:37.235-05:00"),
+	"name" : "INSTALL_PLUGIN_portfolio",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "140a2301-05d9-4f9a-b3ea-3a91948471eb",
+	"error" : "Error: A failure occurred while performing tasks across remote processes.  Check the job log for more details: Error: Timed out waiting for response to command [bcc4c78e-e7c7-4878-aa20-ebcac441b083]\n    at Timeout._onTimeout (/home/dev/pencilblue/include/system/command/command_service.js:378:36)\n    at ontimeout (timers.js:365:14)\n    at tryOnTimeout (timers.js:237:5)\n    at Timer.listOnTimeout (timers.js:207:5)\n    at /home/dev/pencilblue/include/service/jobs/cluster_job_runner.js:203:34\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:726:13\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:52:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:269:32\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:44:16\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:723:17\n    at /home/dev/pencilblue/node_modules/async/lib/async.js:167:37\n    at /home/dev/pencilblue/include/system/command/command_service.js:330:25\n    at Timeout._onTimeout (/home/dev/pencilblue/include/system/command/command_service.js:378:25)\n    at ontimeout (timers.js:365:14)",
+	"id" : "140a2301-05d9-4f9a-b3ea-3a91948471eb",
+	"last_modified" : ISODate("2017-02-13T11:09:43.999-05:00"),
+	"name" : "INSTALL_PLUGIN_sample",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "ERRORED"
+},
+{
+	"_id" : "375d2333-438b-4c6a-b52a-79834d28a995",
+	"error" : null,
+	"id" : "375d2333-438b-4c6a-b52a-79834d28a995",
+	"last_modified" : ISODate("2017-02-13T14:34:54.797-05:00"),
+	"name" : "UNINSTALL_PLUGIN_tonicblog-pencilblue",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "d2424a74-16ee-4076-bf09-549c205c4ee5",
+	"error" : null,
+	"id" : "d2424a74-16ee-4076-bf09-549c205c4ee5",
+	"last_modified" : ISODate("2017-02-13T14:35:00.213-05:00"),
+	"name" : "UNINSTALL_PLUGIN_devblog-pencilblue",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "b9761a13-b6ec-460a-a96a-5876e47f6bf0",
+	"error" : null,
+	"id" : "b9761a13-b6ec-460a-a96a-5876e47f6bf0",
+	"last_modified" : ISODate("2017-02-13T14:35:05.485-05:00"),
+	"name" : "UNINSTALL_PLUGIN_jennifer",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "7b7269e6-a236-46c8-ac6e-cf2b914f6364",
+	"error" : null,
+	"id" : "7b7269e6-a236-46c8-ac6e-cf2b914f6364",
+	"last_modified" : ISODate("2017-02-13T14:35:10.719-05:00"),
+	"name" : "UNINSTALL_PLUGIN_portfolio",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "947bec78-cf2b-4859-bab5-f1051cdab590",
+	"error" : null,
+	"id" : "947bec78-cf2b-4859-bab5-f1051cdab590",
+	"last_modified" : ISODate("2017-02-13T14:35:16.169-05:00"),
+	"name" : "UNINSTALL_PLUGIN_sample",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "45204534-19a1-40da-b3b2-55e360f0b416",
+	"error" : null,
+	"id" : "45204534-19a1-40da-b3b2-55e360f0b416",
+	"last_modified" : ISODate("2017-02-13T14:36:31.919-05:00"),
+	"name" : "INSTALL_PLUGIN_devblog-pencilblue",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},
+{
+	"_id" : "c76cb7d1-726b-44bc-9a48-d682a1ad9751",
+	"error" : null,
+	"id" : "c76cb7d1-726b-44bc-9a48-d682a1ad9751",
+	"last_modified" : ISODate("2017-02-13T19:14:33.844-05:00"),
+	"name" : "INSTALL_PLUGIN_jennifer",
+	"object_type" : "job_run",
+	"progress" : NumberInt("100"),
+	"status" : "COMPLETED"
+},

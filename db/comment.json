@@ -1,0 +1,27 @@
+{
+	"_id" : ObjectId("58a1f650d04b5602423cde8c"),
+	"article" : "58a1f606d04b5602423cde8a",
+	"commenter" : "58a1d5f12d90ed6824e7ab5a",
+	"content" : "hello",
+	"created" : ISODate("2017-02-13T13:09:20.685-05:00"),
+	"last_modified" : ISODate("2017-02-13T13:09:20.685-05:00"),
+	"object_type" : "comment"
+},
+{
+	"_id" : ObjectId("58a242b8632a2c3b475718b8"),
+	"article" : "58a21d8b9c5a692b0ac3f998",
+	"commenter" : "58a209fc68d7801e94836aad",
+	"content" : "hello",
+	"created" : ISODate("2017-02-13T18:35:20.013-05:00"),
+	"last_modified" : ISODate("2017-02-13T18:35:20.013-05:00"),
+	"object_type" : "comment"
+},
+{
+	"_id" : ObjectId("58a265facfae6642e13796b8"),
+	"article" : "58a21d8b9c5a692b0ac3f998",
+	"commenter" : "58a209fc68d7801e94836aad",
+	"content" : "sadfsa",
+	"created" : ISODate("2017-02-13T21:05:46.736-05:00"),
+	"last_modified" : ISODate("2017-02-13T21:05:46.736-05:00"),
+	"object_type" : "comment"
+},

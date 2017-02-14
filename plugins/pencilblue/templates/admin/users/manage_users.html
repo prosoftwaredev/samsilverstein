@@ -1,0 +1,22 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    ^tmp_admin=elements=error_success^
+    ^tmp_admin=elements=sub_nav^
+    ^tmp_admin=elements=search_input^
+    <div class="table_container">
+        <table id="users_table" class="table table-responsive table-condensed">
+            ^tmp_admin=elements=table_headers^
+            <tr ng-repeat="user in users track by user._id" ng-if="!user.hidden && !user.paginated">
+                <td><a ng-href="/admin/users/{{user._id}}" ng-bind="user.username"></a></td>
+                <td ng-bind="user.first_name + ' ' + user.last_name"></td>
+                <td ng-bind="user.email"></td>
+                <td ng-bind="user.created | date: 'yyyy-MM-dd HH:mm'"></td>
+                <td><a href="#" ng-click="confirmDelete(user)"><i class="fa fa-trash"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    ^tmp_admin=elements=pagination^
+    ^tmp_admin=elements=delete_modal^
+</div>
+^tmp_angular=admin=users=manage_users^
+^tmp_admin=footer^

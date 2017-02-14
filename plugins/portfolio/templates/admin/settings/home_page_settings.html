@@ -1,0 +1,82 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    ^tmp_admin=elements=error_success^
+    ^tmp_admin=elements=sub_nav^
+    ^tmp_admin=elements=tab_nav^
+    <form name="homePageForm" ng-submit="saveHomePage()" novalidate>
+        <fieldset>
+            <div class="tab-content">
+                <div class="tab-pane active" id="home_layout">
+                    ^tmp_admin=elements=hero_upload^
+                    <div class="form-group">
+                      <label>^loc_generic.CONTENT^</label>
+          						<wysiwyg layout="layout" media="homePageSettings.page_media"></wysiwyg>
+          					</div>
+                </div>
+                <div class="tab-pane" id="media">
+                    ^tmp_admin=elements=inline_media^
+                </div>
+                <div class="tab-pane" id="callouts">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_HEADLINE^ 1</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[0].headline"></input>
+                            </div>
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_LINK^ 1</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[0].link"></input>
+                            </div>
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_COPY^ 1</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[0].copy"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_HEADLINE^ 2</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[1].headline"></input>
+                            </div>
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_LINK^ 2</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[1].link"></input>
+                            </div>
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_COPY^ 2</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[1].copy"></input>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_HEADLINE^ 3</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[2].headline"></input>
+                            </div>
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_LINK^ 3</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[2].link"></input>
+                            </div>
+                            <div class="form-group">
+                                <label>^loc_CALLOUT_COPY^ 3</label>
+                                <input type="text" class="form-control" ng-model="homePageSettings.callouts[2].copy"></input>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-default" href="/admin/plugins/portfolio/settings">
+                    <i class="fa fa-ban"></i>&nbsp;^loc_generic.CANCEL^
+                </a>
+                ^tmp_admin=elements=save_button^
+            </div>
+        </fieldset>
+    </form>
+    <div id="hero_images_template" style="display: none">
+
+    </div>
+</div>
+^tmp_admin=elements=wysiwyg_scripts^
+^tmp_angular=admin=settings=home_page_settings^
+^tmp_admin=footer^

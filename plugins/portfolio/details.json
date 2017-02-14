@@ -1,0 +1,55 @@
+{
+    "uid": "portfolio",
+    "name": "Portfolio Theme",
+    "description": "A portfolio site theme for PencilBlue",
+    "version": "0.2.1",
+    "pb_version": ">=0.5.x <1.x",
+    "author": {
+        "name": "PencilBlue",
+        "email": "info@pencilblue.org",
+        "website": "http://pencilblue.org",
+        "contributors": [
+            {
+                "name": "Blake Callens",
+                "email": ""
+            },
+            {
+                "name": "Brian Hyder",
+                "email": ""
+            }
+        ]
+    },
+    "settings": [
+        {
+            "name": "show_side_navigation",
+            "value": true
+        },
+        {
+            "name": "home_page_keywords",
+            "value": "pencilblue,portfolio,plugin"
+        },
+        {
+            "name": "home_page_description",
+            "value": "This is the landing page of the PencilBlue portfolio theme plugin."
+        }
+    ],
+    "permissions": {
+        "ACCESS_USER": [],
+        "ACCESS_WRITER": [],
+        "ACCESS_EDITOR": [],
+        "ACCESS_MANAGING_EDITOR": []
+    },
+    "main_module": {
+        "path": "portfolio.js"
+    },
+    "theme": {
+        "settings": [],
+        "content_templates":
+        [
+            {
+                "file": "index",
+                "name": "Blog"
+            }
+        ]
+    }
+}

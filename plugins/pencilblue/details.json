@@ -1,0 +1,43 @@
+{
+    "uid": "pencilblue",
+    "name": "PencilBlue",
+    "description": "The plugin that drives the default core functionality of PencilBlue",
+    "version": "0.2.5",
+    "pb_version": ">=0.6.x <1.x",
+    "icon": "pencil",
+	"author": {
+		"name": "PencilBlue",
+		"email": "info@pencilblue.org",
+		"website": "http://pencilblue.org",
+		"contributors": [
+			{
+				"name": "Blake Callens",
+				"email": ""
+			},
+			{
+				"name": "Brian Hyder",
+				"email": ""
+			}
+		]
+	},
+	"settings": [],
+	"permissions": {
+		"ACCESS_USER": [],
+		"ACCESS_WRITER": [],
+		"ACCESS_EDITOR": [],
+		"ACCESS_MANAGING_EDITOR": []
+	},
+	"main_module": {
+		"path": "pencilblue.js"
+	},
+	"theme": {
+		"settings": [],
+		"content_templates":
+		[
+			{
+				"file": "index",
+				"name": "Default"
+			}
+		]
+	}
+}

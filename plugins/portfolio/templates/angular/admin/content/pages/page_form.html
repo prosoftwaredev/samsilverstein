@@ -1,0 +1,192 @@
+<script type="text/javascript" src="/js/angular/directives/wysiwyg.js"></script>
+<script type="text/javascript" src="/js/angular/filters/parsable_date.js"></script>
+<script type="text/javascript" src="/js/angular/services/form_validation.js"></script>
+<script type="text/javascript">
+    angular.module('pencilblueApp', ['wysiwygElement', 'inlineMedia', 'topicSelect', 'parseDate', 'validation', 'uploadPhoto'])
+    .controller('PencilBlueController', function($rootScope, $scope, $sce, $http, $filter, $timeout, $window, validationService) {
+        ^angular_objects^
+        ^tmp_angular=admin=elements=is_field_valid^
+        ^tmp_angular=admin=elements=is_wysiwyg_valid^
+
+        $scope.urlAvailable = null;
+        $scope.urlGenerated = null;
+        
+        $scope.page.publish_date = $filter('date')($scope.page.publish_date || new Date(), 'MM-dd-yyyy HH:mm');
+        $scope.page.page_media = $scope.page.page_media || [];
+        $scope.layout = $sce.trustAsHtml($scope.page.page_layout);
+        $scope.page.meta_keywords = $scope.page.meta_keywords ? $scope.page.meta_keywords.join(', ') : '';
+        $scope.editingObject = $scope.page;
+        $scope.variablePrefix = 'page';
+        $rootScope.photoValue = $scope.page.hero_image || null;
+
+        $scope.setPublishDateToNow = function() {
+            $scope.page.publish_date = $filter('date')(new Date(), 'MM-dd-yyyy HH:mm');;
+        };
+
+        $scope.getUrlAvailability = function() {
+            $http.get('/api/url/exists_for?url=' + $scope.page.url + '&type=page&' + $scope.siteKey + '=' + $scope.site)
+            .success(function(result) {
+                $scope.urlAvailable = !result.data;
+            })
+            .error(function(error, status) {
+                $scope.errorMessage = error.message;
+            });
+        };
+
+        $scope.resetUrlAvailability = function() {
+            $scope.urlAvailable = null;
+        };
+
+        $scope.savePage = function(draft) {
+            $scope.formSubmitted = true;
+
+            if(!validationService.isFormValid($scope.pageForm)) {
+                return;
+            }
+
+            $scope.page.draft = draft;
+            $scope.getPageData(draft, function(pageData) {
+                $scope.saving = true;
+                if(pageData._id) {
+                    // Update an existing page
+                    $http.put('/api/content/pages/' + $scope.page._id, pageData)
+                    .success(function(result) {
+                        $scope.successMessage = pageData.headline + ' ' + loc.admin.EDITED;
+                        $scope.page.last_modified = result.last_modified;
+                        $scope.saving = false;
+                    })
+                    .error(function(error, status) {
+                        $scope.errorMessage = error.message;
+                        $scope.saving = false;
+                    });
+                }
+                else {
+                    // Save a new page
+                    $http.post('/api/content/pages', pageData)
+                    .success(function(result) {
+                        $scope.successMessage = pageData.headline + ' ' + loc.admin.CREATED;
+                        $scope.saving = false;
+                        $window.location = '/admin/content/pages/' + result._id.toString();
+                    })
+                    .error(function(error, status) {
+                        $scope.errorMessage = error.message;
+                        $scope.saving = false;
+                    });
+                }
+            });
+        };
+
+        $scope.savePageDraft = function(cb) {
+            if(!$scope.page.draft || !$scope.page._id) {
+                return;
+            }
+
+            $scope.page.draft = true;
+            $scope.getPageData(true, function(pageData) {
+                $scope.saving = true;
+                $http.put('/api/content/pages/' + $scope.page._id, pageData)
+                .success(function(result) {
+                    $scope.page.last_modified = result.last_modified;
+                    $timeout($scope.savePageDraft, 30000);
+                    $scope.saving = false;
+
+                    if(typeof cb !== 'undefined') {
+                        cb(null);
+                    }
+                })
+                .error(function(error, status) {
+                    $scope.errorMessage = error.message;
+                    $scope.saving = false;
+
+                    if(typeof cb !== 'undefined') {
+                        cb(error.message);
+                    }
+                });
+            });
+        };
+
+        $scope.getPageData = function(draft, cb) {
+            var pageData = angular.copy($scope.page);
+            pageData.publish_date = (new Date($filter('parsableDate')($scope.page.publish_date))).toISOString();
+            pageData.draft = draft ? 1 : 0;
+            pageData.hero_image = $rootScope.photoValue;
+
+            var media = [];
+            for(var i = 0; i < $scope.page.page_media.length; i++) {
+                media.push($scope.page.page_media[i]._id.toString());
+            }
+
+            var topics = [];
+            for(var i = 0; i < $scope.page.page_topics.length; i++) {
+                topics.push($scope.page.page_topics[i]._id.toString());
+            }
+
+            // Convert keyword string into array, trimming any excess whitespace and commas
+            if (typeof pageData.meta_keywords == "string") {
+                var words = pageData.meta_keywords.trim();
+                pageData.meta_keywords = [];
+
+                if (words.length > 0) {
+                    var keywords = words.split(",");
+                    for (var i = 0; i < keywords.length; i++) {
+                        if (keywords[i].trim().length > 0) {
+                            pageData.meta_keywords.push(keywords[i].trim());
+                        }
+                    }
+                }
+            }
+
+            pageData.allow_comments = pageData.allow_comments ? true : false;
+
+            pageData.page_media = media;
+            pageData.page_topics = topics;
+            pageData.page_layout = $scope.layout;
+
+            cb(pageData);
+        };
+
+        $scope.previewPage = function() {
+            $scope.savePageDraft(function(error) {
+                if(!error) {
+                    $window.open('/preview/page/' + $scope.page._id);
+                }
+            });
+        };
+
+        $scope.generateUrl = function(text) {
+			if (text) {
+				return text.replace(/\s+/g, '-').toLowerCase();
+			}
+		};
+
+		$scope.getUrl = function() {
+			$scope.page.url = $scope.generateUrl($scope.page.headline);
+
+            $http.get('/api/url/exists_for?url=' + $scope.page.url + '&type=page&' + $scope.siteKey + '=' + $scope.site)
+            .success(function(result) {
+                $scope.urlAvailable = !result.data;
+            })
+            .error(function(error, status) {
+                $scope.errorMessage = error.message;
+            });
+
+			if($scope.page.url && $scope.page.url.length) {
+				$scope.urlGenerated = true;
+			} else {
+				$scope.urlGenerated = false;
+			}
+		};
+
+		$scope.$watch('page.url', function(newVal, oldVal) {
+			if (newVal !== oldVal) {
+				if($scope.page.url !== $scope.generateUrl($scope.page.headline)){
+	 			   $scope.urlGenerated = null;
+	 		   	}
+			}
+	   	});
+
+        $('#publish_date').datetimepicker({format: 'm-d-Y H:i'});
+        $timeout($scope.savePageDraft, 30000);
+    })
+    ^tmp_angular=admin=elements=url_safe^
+</script>

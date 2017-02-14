@@ -1,0 +1,26 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    ^tmp_admin=elements=error_success^
+    ^tmp_admin=elements=sub_nav^
+    ^tmp_admin=elements=search_input^
+    <div class="table_container">
+        <table class="table table-responsive table-condensed">
+            ^tmp_admin=elements=table_headers^
+            <tr ng-repeat="mediaItem in media track by mediaItem._id" ng-if="!mediaItem.hidden && !mediaItem.paginated">
+                <td style="width: 2em">
+                    <a href="{{mediaItem.link}}" target="_blank">
+                        <i class="fa fa-{{mediaItem.icon}} fa-lg" style="float: right; margin-right: .5em;"></i>
+                    </a>
+                </td>
+                <td><a class="media_name" ng-href="/admin/content/media/{{mediaItem._id}}" ng-bind="mediaItem.name"></a></td>
+                <td ng-bind="mediaItem.caption"></td>
+                <td ng-bind="mediaItem.last_modified | date: 'yyyy-MM-dd HH:mm'"></td>
+                <td><a href="#" ng-click="confirmDelete(mediaItem)"><i class="fa fa-trash"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    ^tmp_admin=elements=pagination^
+    ^tmp_admin=elements=delete_modal^
+</div>
+^tmp_angular=admin=content=media=manage_media^
+^tmp_admin=footer^

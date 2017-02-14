@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+        <title>^site_name^ ^page_name^</title>
+        <meta name="description" content="^meta_desc^">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+
+        <link rel="stylesheet" type="text/css" href="^bootstrap_css_src^">
+        <link rel="stylesheet" type="text/css" href="^font_awesome_src^">
+        <link rel="stylesheet" type="text/css" href="/css/admin.css">
+
+        <script type="text/javascript" src="^jquery_src^"></script>
+        <script type="text/javascript" src="^jquery_validate_src^"></script>
+        <script type="text/javascript" src="^bootstrap_js_src^"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div id="login_logo">
+                        <img src="^global_root^/img/pb_logo.png" style="max-width: 100%"/>
+                    </div>
+                    ^error_success^
+                    <div class="panel panel-default">
+                        <div class="panel-heading">^loc_setup.REGISTER_ADMIN^</div>
+                        <div class="panel-body">
+                            <form id="setup_form" method="post" action="^global_root^/actions/setup">
+                                <fieldset>
+                                    <div class="form-group">
+                                        <label>^loc_users.FIRST_NAME^</label>
+                                        <input type="text" id="first_name" name="first_name" class="form-control"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>^loc_users.LAST_NAME^</label>
+                                        <input type="text" id="last_name" name="last_name" class="form-control"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>^loc_users.USERNAME^</label>
+                                        <input type="text" id="username" name="username" class="form-control"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>^loc_users.EMAIL^</label>
+                                        <input type="email" id="email" name="email" class="form-control" autocomplete="false"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>^loc_users.PASSWORD^</label>
+                                        <input type="password" id="password" name="password" class="form-control" onkeyup="checkPasswordMatch()" autocomplete="false"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>^loc_users.CONFIRM_PASSWORD^</label>
+                                        <div class="input-group">
+                                            <input type="password" id="confirm_password" name="confirm_password" class="form-control" onkeyup="checkPasswordMatch()"/>
+                                            <span class="input-group-addon"><i id="password_check" class="fa fa-thumbs-down" style="color: #AA0000"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>^loc_generic.MAKE_PB_BETTER^.</label><br/>
+                                        <div class="btn-group" data-toggle="buttons" style="margin-bottom: .5em">
+                                            <label class="btn btn-default active">
+                                                <input type="radio" name="call_home" value="1" checked="checked"> ^loc_generic.YES^
+                                            </label>
+                                            <label class="btn btn-default">
+                                                <input type="radio" name="call_home" value="0"> ^loc_generic.NO^
+                                            </label>
+                                        </div><br/>
+                                        <a href="#privacy_policy_modal" data-toggle="modal" style="font-size:.9em">^loc_generic.PRIVACY_POLICY^</a>
+                                    </div>
+                                    <input type="submit" class="btn btn-lg btn-primary btn-block" value="^loc_generic.SUBMIT^">
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        ^tmp_elements=privacy_policy^
+        <script type="text/javascript" src="^global_root^/js/setup.js"></script>
+    </body>
+</html>

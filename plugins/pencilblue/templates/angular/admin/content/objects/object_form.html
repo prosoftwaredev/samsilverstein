@@ -1,0 +1,177 @@
+<script type="text/javascript" src="/js/angular/directives/wysiwyg.js"></script>
+<script type="text/javascript" src="/js/angular/filters/parsable_date.js"></script>
+<script type="text/javascript" src="/js/angular/services/search.js"></script>
+<script type="text/javascript" src="/js/angular/services/paginate.js"></script>
+<script type="text/javascript" src="/js/angular/services/form_validation.js"></script>
+<script type="text/javascript">
+angular.module('pencilblueApp', ['wysiwygElement', 'ui.sortable', 'search', 'paginate', 'parseDate', 'validation'])
+.controller('PencilBlueController', function($scope, $sce, $http, $window, $timeout, $filter, searchService, paginationService, validationService) {
+  ^angular_objects^
+  ^tmp_angular=admin=elements=is_field_valid^
+  ^tmp_angular=admin=elements=error_success^
+
+  $scope.hideMediaButton = true;
+  $scope.paginationLimit = 12;
+
+  $scope.search = function(field) {
+    searchService.search(field.searchText, field.available_objects, ['name'], function(availableObjects) {
+      field.available_objects = availableObjects;
+      $scope.paginate(field, 0);
+    });
+  };
+
+  $scope.clearSearch = function(field) {
+    field.searchText = '';
+    $scope.search(field);
+  };
+
+  $scope.paginate = function(field, paginationIndex) {
+    field.paginationIndex = paginationIndex;
+
+    paginationService.paginate(field.available_objects, field.paginationIndex, field.paginationLimit, function(availableObjects, paginationPages) {
+      field.available_objects = availableObjects;
+      field.paginationPages = paginationPages;
+    })
+  };
+
+  $scope.pageButtonVisible = function(field, testIndex) {
+    return paginationService.pageButtonVisible(testIndex, field.paginationIndex, field.paginationPages);
+  };
+
+  $scope.getSortListeners = function(field) {
+    var active = $scope.customObject[field.name];
+    var inactive = field.available_objects;
+
+    if(!active) {
+      active = [];
+    }
+
+    return {
+      accept: function (sourceItemHandleScope, destSortableScope) {
+        var itemToTest = sourceItemHandleScope.itemScope.object;
+
+        for(var i = 0; i < active.length; i++) {
+          if(itemToTest._id === active[i]._id) {
+            return true;
+          }
+        }
+        for(var j = 0; j < inactive.length; j++) {
+          if(itemToTest._id === inactive[j]._id) {
+            return true;
+          }
+        }
+
+        return false;
+      },
+      itemMoved: function (event) {},
+      orderChanged: function(event) {},
+      containment: '#' + field.name
+    }
+  };
+
+  $scope.getFieldUID = function(field) {
+    return field.name.toLowerCase().split(' ').join();
+  };
+
+  $scope.setBoolean = function(fieldName, setting) {
+    $scope.customObject[fieldName] = setting;
+  };
+
+  $scope.setDateToNow = function(fieldName) {
+    $scope.customObject[fieldName] = $filter('date')(new Date(), 'MM-dd-yyyy HH:mm');
+  };
+
+  $scope.saveObject = function() {
+    $scope.formSubmitted = true;
+
+    if(!validationService.isFormValid($scope.objectForm)) {
+      return;
+    }
+
+    var saveObject = {type: $scope.objectType._id.toString()};
+    for(var i = 0; i < $scope.objectType.fields.length; i++) {
+        var fieldType = $scope.objectType.fields[i].field_type;
+
+      if(fieldType === 'date') {
+        saveObject[$scope.objectType.fields[i].name] = (new Date($filter('parsableDate')($scope.customObject[$scope.objectType.fields[i].name]))).getTime();
+      }
+      else if(fieldType === 'child_objects') {
+        var children = [];
+        for(var j = 0; j < $scope.customObject[$scope.objectType.fields[i].name].length; j++) {
+          children.push($scope.customObject[$scope.objectType.fields[i].name][j]._id.toString());
+        }
+        saveObject[$scope.objectType.fields[i].name] = children;
+      }
+      else {
+        saveObject[$scope.objectType.fields[i].name] = $scope.customObject[$scope.objectType.fields[i].name];
+
+        //this ensures that our validation will pass server-side.  See #1076
+        if (!saveObject[$scope.objectType.fields[i].name] && fieldType == 'peer_object') {
+          saveObject[$scope.objectType.fields[i].name] = null;
+        }
+      }
+    }
+
+    var postURL = '/actions/admin/content/objects/' + $scope.objectType._id;
+    if($scope.customObject._id) {
+      postURL += '/' + $scope.customObject._id;
+    }
+
+    $scope.saving = true;
+
+    $http.post(postURL, saveObject)
+    .success(function(result) {
+      $scope.successMessage = result.message;
+      $scope.saving = false;
+
+      if(result.data) {
+        $window.location = '/admin/content/objects/' + $scope.objectType._id + '/' + result.data._id.toString();
+      }
+    })
+    .error(function(error, status) {
+      $scope.errorMessage = error.message;
+      $scope.saving = false;
+    });
+  };
+
+  for(var i = 0; i < $scope.objectType.fields.length; i++) {
+    if($scope.objectType.fields[i].field_type === 'boolean' && typeof $scope.customObject[$scope.objectType.fields[i].name] === 'undefined') {
+      $scope.customObject[$scope.objectType.fields[i].name] = true;
+    }
+    else if($scope.objectType.fields[i].field_type === 'date') {
+      $scope.customObject[$scope.objectType.fields[i].name] = $filter('date')($scope.customObject[$scope.objectType.fields[i].name], 'MM-dd-yyyy HH:mm');
+    }
+    else if($scope.objectType.fields[i].field_type === 'peer_object') {
+      $scope.customObject[$scope.objectType.fields[i].name] = $scope.customObject[$scope.objectType.fields[i].name] ? $scope.customObject[$scope.objectType.fields[i].name]._id.toString() : '';
+    }
+    else if($scope.objectType.fields[i].field_type === 'child_objects') {
+      $scope.objectType.fields[i].searchText = '';
+      $scope.objectType.fields[i].paginationIndex = 0;
+      $scope.objectType.fields[i].paginationLimit = $scope.paginationLimit;
+      $scope.paginate($scope.objectType.fields[i], 0);
+    }
+  }
+})
+.directive('fieldsBuilt', function() {
+  return function(scope, element, attrs) {
+    var self = this;
+
+    this.testForDateFields = function() {
+      if(!$('.date_field').length) {
+        setTimeout(self.testForDateFields, 100);
+        return;
+      }
+
+      $('.date_field').datetimepicker({format: 'm-d-Y H:i'});
+    }
+
+    if(scope.$last){
+      angular.forEach(scope.objectType.fields, function(field) {
+        if(field.field_type === 'date') {
+          self.testForDateFields();
+        }
+      });
+    }
+  };
+})
+</script>
