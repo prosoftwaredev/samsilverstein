@@ -1,0 +1,23 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    ^tmp_admin=elements=error_success^
+    ^tmp_admin=elements=sub_nav^
+    ^tmp_admin=elements=tab_nav^
+    <form id="import_topics_form" enctype="multipart/form-data" accept="text/csv" method="post">
+        <fieldset>
+            <div class="tab-content">
+                <div class="progress progress-striped active" ng-if="uploading">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="{{uploadPercent}}" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                </div>
+                <span class="btn btn-success fileinput-button" ng-disabled="uploading">
+                    <i class="fa" ng-class="{'fa-plus': !uploading, 'fa-circle-o-notch fa-spin': uploading}"></i>
+                    <span>^loc_SELECT_FILE^...</span>
+                    <input type="file" ng-file-select="onFileSelect($files)" accept=".txt,.csv"></input>
+                </span>
+                <div class="file_drop" ng-file-drop="onFileSelect($files)" ng-file-drop-available="dropSupported=true" ng-file-drag-over-class="file_drop_hover" ng-show="dropSupported && !uploading">Drop CSV files here</div>
+            </div>
+        </fieldset>
+    </form>
+</div>
+^tmp_angular=admin=content=topics=import_topics^
+^tmp_admin=footer^

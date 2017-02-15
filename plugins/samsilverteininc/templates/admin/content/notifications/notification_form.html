@@ -1,0 +1,65 @@
+^tmp_admin=head^
+<div class="col-md-9">
+  ^tmp_admin=elements=error_success^
+  ^tmp_admin=elements=sub_nav^
+  ^tmp_admin=elements=tab_nav^
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="object_fields">
+
+      <form novalidate class="simple-form">
+        <fieldset>
+
+          <div class="form-group">
+            <label>From</label>
+            <input type="text" name="from" class="form-control" required="" ng-model="notificationForm.from">
+          </div>
+
+		  <div class="form-group">
+			<label>Organization:</label>
+			<span ng-repeat="organization in organizations">
+			  <a ng-if="!organization.select" class="btn btn-default" ng-click="toggleOrganization(organization)">{{organization.name}} </a>
+			  <a ng-if="organization.select" class="btn btn-primary" ng-click="toggleOrganization(organization)">{{organization.name}} </a>
+			</span>
+		  </div>
+
+		  <div class="form-group date_input">
+			<label>Date send (GMT+0):</label>
+			<div class="input-group">
+			  <input type="text" name="send_date" class="form-control date_field" ng-init="setDefaultDate(notificationForm.send_date)" ng-model="notificationForm.send_date"></input>
+			  <span class="input-group-btn">
+				<button class="btn btn-default" type="button" ng-click="setDateToNow(notificationForm.send_date)">^loc_NOW^</button>
+			  </span>
+			</div>
+		  </div>
+
+		  <div class="form-group">
+			<label>users(mobile app):</label>
+			<span ng-repeat="token in tokens">
+			  <a ng-if="!token.select" class="btn btn-default" ng-click="toggleToken(token)">{{token.userDetails.username}}</a>
+			  <a ng-if="token.select" class="btn btn-primary" ng-click="toggleToken(token)">{{token.userDetails.username}}</a>
+			</span>
+		  </div>
+
+          <div class="form-group">
+            <label>Message:</label>
+            <textarea  class="form-control" name="message" required="" ng-model="notificationForm.message"></textarea>
+          </div>
+
+          <a class="btn btn-default" href="/admin/users">
+            <i class="fa fa-ban"></i>&nbsp;Cancel
+          </a>
+
+          <button type="submit" class="btn btn-primary" ng-click="sendNotification(notificationForm)">
+            <i class="fa fa-save"></i>&nbsp;Save
+          </button>
+
+        </fieldset>
+      </form>
+
+    </div>
+  </div>
+
+</div>
+^tmp_angular=admin=content=notifications=form_notification^
+^tmp_admin=footer^

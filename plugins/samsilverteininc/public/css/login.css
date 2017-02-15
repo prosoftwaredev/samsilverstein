@@ -1,0 +1,134 @@
+body {
+    background: #fff;
+    height: 100%;
+}
+
+.ss_logo {
+    display: block;
+    text-align: center;
+    padding: 30% 10% 0;
+}
+
+.ss_logo img {
+    width: 200px;
+}
+
+.login_form {
+    background: url(../img/login_background.png);
+    margin-top: -23px;
+    padding-top: 7em;
+    height: 100%;
+}
+
+.logpass_group{
+    position: relative;
+    width: 80%;
+    margin: 0 auto 65px;
+    border: 10px solid #e22028;
+    background: #e22028;
+    border-radius: 20px !important;
+}
+.logpass_group:after{
+    content: '';
+    position: absolute;
+    border: 20px solid transparent;
+    border-left: 10px solid #e22028;
+    border-top: 40px solid #e22028;
+    bottom: -60px;
+    left: 20px;
+}
+.log{
+    margin-bottom: 2px;
+}
+.log,
+.pass {
+    width: 100%;
+    font-size: 0;
+    display: table;
+    line-height: 0;
+}
+
+.log span,
+.pass span {
+    width: 110px;
+    height: 110px;
+    display: table-cell;
+    background: #bcbdc0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.log input,
+.pass input {
+    display: table-cell;
+    line-height: 110px;
+    height: 110px;
+    width: 100%;
+    padding: 0 3%;
+    border: 0;
+    font-size: 35px;
+    color: #5c625d;
+}
+
+.red_button,
+.silver_button {
+    display: block;
+    width: 90%;
+    text-align: center;
+    line-height: 3em;
+    border-radius: 55px !important;
+    border: 0;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 1em;
+}
+
+.red_button {
+    color: #fff;
+    background: #e22028;
+}
+
+.silver_button {
+    color: #001000;
+    background: #f1f1f2;
+}
+
+.info_pass {
+    display: table;
+    margin: 10%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Avenir Medium';
+    text-align: center;
+    width: 80%;
+}
+
+@media all and (max-width: 560px) {
+    .log span,
+    .pass span {
+        width: 50px;
+        height: 50px;
+    }
+    .log span img,
+    .pass span img {
+        width: 40%;
+    }
+    .log input,
+    .pass input {
+        font-size: 18px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .info_pass {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .log input,
+    .pass input,
+    .info_pass {
+        font-size: 14px;
+    }
+}

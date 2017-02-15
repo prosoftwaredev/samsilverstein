@@ -1,0 +1,97 @@
+^tmp_admin=head^
+<div class="col-md-9">
+  ^tmp_admin=elements=error_success^
+  ^tmp_admin=elements=sub_nav^
+  ^tmp_admin=elements=tab_nav^
+
+  <div class="tab-content">
+	<div class="tab-pane active" id="content">
+
+	  <form novalidate class="simple-form">
+
+		<div class="form-group">
+		  <label>Channel:</label>
+		  <select class="form-control" ng-model="pollForm.channel" ng-change="filterUser(selOrganization)" ng-options="channel._id as channel.name for channel in channels"></select>
+		</div>
+
+		<div class="form-group">
+		  <label>Headline</label>
+		  <input type="text" name="title" class="form-control" required="" ng-model="pollForm.title">
+		</div>
+
+		<div class="form-group" ng-class="{'has-error': !isWysiwygValid('#poll_wysiwyg')}">
+		  <label>^loc_CONTENT^&nbsp;<span ng-bind="columnInches"></span></label>
+		  <div id="poll_wysiwyg">
+			^wysiwyg^
+		  </div>
+		  <div class="form_error" ng-if="!isWysiwygValid('#poll_wysiwyg')" style="margin-top: -1em">^loc_REQUIRED_FIELD^</div>
+		</div>
+
+		<div class="form-group">
+		  <label>Author</label>
+		  <input type="text" name="author_title" class="form-control" required="" ng-model="pollForm.author_title">
+		</div>
+
+		<div class="form-group" ng-class="{'has-error': !isFieldValid(pollForm.publish_date)}">
+		  <label>^loc_PUBLISH_DATE^</label>
+		  <div class="input-group">
+			<input type="text" name="publish_date" id="publish_date" class="form-control" ng-model="pollForm.publish_date" required/>
+			<span class="input-group-btn">
+			  <button class="btn btn-default" type="button" ng-click="setPublishDateToNow()">^loc_NOW^</button>
+			</span>
+		  </div>
+		  <div class="form_error" ng-if="!isFieldValid(pollForm.publish_date)">^loc_REQUIRED_FIELD^</div>
+		</div>
+
+		<div class="form-group">
+		  <label>^loc_ALLOW_COMMENTS^?</label><br/>
+		  <div class="btn-group">
+			<button type="button" class="btn btn-default" ng-class="{'active': pollForm.allow_comments}" ng-click="setCommentState(true)">^loc_YES^</button>
+			<button type="button" class="btn btn-default" ng-class="{'active': !pollForm.allow_comments}" ng-click="setCommentState(false)">^loc_NO^</button>
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <label>Answer(s):</label>
+		  <div class="form-group">
+
+			<div ng-repeat="answer in pollForm.answers track by $index">
+
+			  <div class="form-group">
+				<div class="row">
+				  <div class="col-sm-9">
+					<input type="text" name="answer" class="form-control" id="lab-{{answer._id}}" required="" ng-model="answer.content">
+				  </div>
+				  <div class="col-sm-3">
+					<button type="button" class="btn btn-primary" ng-click="removeAnswer($index)">
+					  <i class="fa fa-minus"></i><span ng-bind="pill.title" class="ng-binding"></span>
+					</button>
+				  </div>
+				</div>
+			  </div>
+
+			</div>
+
+			<button type="submit" class="btn btn-primary" ng-click="addAnswer()">
+			  <i class="fa fa-plus"></i>&nbsp;Add answer
+			</button>
+
+		  </div>
+		</div>
+
+		<a class="btn btn-default" href="/admin/users">
+		  <i class="fa fa-ban"></i>&nbsp;Cancel
+		</a>
+
+		<button type="submit" class="btn btn-primary" ng-click="save(pollForm)">
+		  <i class="fa fa-save"></i>&nbsp;Send
+		</button>         
+
+	  </form>
+
+	</div>
+  </div>
+
+</div>
+^tmp_angular=admin=content=polls=form_poll^
+^tmp_admin=footer^

@@ -1,0 +1,42 @@
+^tmp_admin=head^
+<div class="col-md-9">
+  ^tmp_admin=elements=error_success^
+  ^tmp_admin=elements=sub_nav^
+  <div class="table_container">
+    <table class="table table-responsive table-condensed">
+      ^tmp_admin=elements=table_headers^
+      <tr ng-repeat="answer in answers track by answer._id" ng-if="!answer.hidden && !answer.paginated">
+        <td>
+          <a class="answer_name" ng-href="/admin/users/{{answer.author._id}}">{{answer.author.username}}</a>
+        </td>
+        <td ng-bind="answer.chooseDetails.content"></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="table_container">
+    Result poll:
+    <table class="table table-responsive table-condensed">
+      <thead>
+      <th>
+        Answer
+      </th>
+      <th>
+        Vote
+      </th>
+      </thead>
+      <tr ng-repeat="vote in resultPoll">
+        <td>
+          {{vote.content}}
+        </td>
+        <td ng-bind="vote.vote"></td>
+      </tr>
+    </table>
+    Total vote: {{totalVote}}
+  </div>
+  ^tmp_admin=elements=pagination^
+  ^tmp_admin=elements=delete_modal^
+</div>
+^tmp_angular=admin=content=polls=manager_poll_answers^
+^tmp_admin=footer^

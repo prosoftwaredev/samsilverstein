@@ -1,0 +1,17 @@
+<div class="modal fade" id="confirm_modal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				Are you sure you want to copy channel?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal" ng-disabled="deleting">
+					<i class="fa fa-ban"></i>&nbsp;^loc_CANCEL^
+				</button>
+				<button type="button" class="btn btn-success" ng-click="saveObject(newObj)" ng-disabled="deleting">
+					<i class="fa fa-trash"></i>&nbsp;Copy&nbsp;<i class="fa fa-spinner fa-spin" ng-if="deleting"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,49 @@
+^tmp_admin=head^
+
+<div class="col-md-9">
+
+  ^tmp_admin=elements=error_success^
+  ^tmp_admin=elements=sub_nav^
+  ^tmp_admin=elements=tab_nav^
+
+  <form name="objectForm" novalidate>
+    <fieldset>
+      <div class="tab-content">
+        <div class="tab-pane active" id="object_fields">
+
+		  <div class="form-group">
+			<label>Copy channel:</label>
+			<select required class="form-control" ng-model="newObj.channel" name="channel"
+					ng-options="channel._id as channel.name for channel in chennals"
+					>
+			</select>
+		  </div>
+
+		  <div class="form-group">
+			<label>Name is new channel:</label>
+			<input required type="text" ng-model="newObj.name" name="name" class="form-control" />
+		  </div>
+
+		  <div class="form-group">
+			<label>Prefix is for posts: </label>
+			<input required type="text" ng-model="newObj.maskPrefix" name="maskPrefix" class="form-control" placeholder="(copy)" />
+		  </div>
+
+		  <a class="btn btn-default" ng-href="/admin/content/channel">
+			<i class="fa fa-ban"></i>&nbsp;^loc_CANCEL^
+		  </a>
+		  
+		  <button type="submit" class="btn btn-primary" ng-disabled="saving" ng-click="confirmNew(newObj)">
+			  <i class="fa" ng-class="{'fa-save': !saving, 'fa-circle-o-notch fa-spin': saving}"></i>&nbsp;^loc_SAVE^
+		  </button>
+
+
+		</div>
+	  </div>
+	</fieldset>
+  </form>
+  
+</div>
+^tmp_admin=elements=comfirm_modal^
+^tmp_angular=admin=content=channel=channel_copy^
+^tmp_admin=footer^
