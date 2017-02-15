@@ -1,7 +1,0 @@
-$scope.isWysiwygValid = function(parentElement) {
-  if(!$scope.formSubmitted) {
-    return true;
-  }
-
-  return angular.element(parentElement + ' .layout_editable').html().length > 0;
-}
