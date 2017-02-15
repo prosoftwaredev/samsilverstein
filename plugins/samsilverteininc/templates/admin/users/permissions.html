@@ -1,0 +1,25 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    <div class="alert alert-warning error_success" ng-if="permissions.length === 0">
+        ^loc_NO_PERMISSIONS^.
+    </div>
+    ^tmp_admin=elements=sub_nav^
+    <div ng-if="permissions.length > 0">
+        ^tmp_admin=elements=search_input^
+    </div>
+    <div class="table_container" ng-if="permissions.length > 0">
+        <table id="permissions_table" class="table table-responsive table-condensed">
+            <tr>
+                <th id="permission_name_header">^loc_NAME^</th>
+                <th ng-repeat="role in roles"><div ng-class-odd="'odd'"><span ng-bind="role"></span></div></th>
+            </tr>
+            <tr class="permission_row" ng-repeat="perm in permissions" ng-if="!perm.hidden && !perm.paginated">
+                <td class="permission_name" class="project-name" ng-bind="perm.name"></td>
+                <td ng-repeat="value in perm.vals"><i class="fa fa-check" ng-if="value.val"></i></td>
+            </tr>
+        </table>
+    </div>
+    ^tmp_admin=elements=pagination^
+</div>
+^tmp_angular=admin=users=permissions^
+^tmp_admin=footer^

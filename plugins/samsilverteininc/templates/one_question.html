@@ -1,0 +1,39 @@
+^tmp_head^
+<style>
+  .article-head,
+  .comments_container .panel-collapse .panel-heading a,
+  #comments_0>.panel-heading,
+  #comment_submit_button_0:hover,
+  #comment_submit_button_1:hover,
+  #comment_submit_button_0:focus {
+    background-color: ^channel_color^!important
+  }
+
+  span.icon {
+    background: url(^channel_thumbnail^) no-repeat center center;
+    background-size: cover;
+  }
+</style>
+  <main>
+  <script src="/js/comments.js"></script>
+  <div class="album_content">
+    <div class="wrap-article-content">
+      <div class="article-head">
+        <h1>^question_subheading^<span class="icon"></span></h1>
+        <h2>^channel_name^</h2>
+      </div>
+      <div class="article-content">
+        ^question_message^
+      </div>
+    </div>
+
+    ^tmp_elements=questions=answer_form^
+    ^comments^
+  </div>
+
+</div>
+
+
+<!-- ^infinite_scroll^ -->
+^tmp_angular=one_question^
+^tmp_footer^

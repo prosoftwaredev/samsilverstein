@@ -1,0 +1,47 @@
+<script type="text/javascript">
+  var myApp= angular.module('pencilblueApp', [])
+          .controller('PencilBlueController', function ($scope, $http, $sce, $window, $timeout) {
+            ^angular_objects^
+
+            $scope.trustHTML = function(string){
+              return $sce.trustAsHtml(string);
+            };
+
+            $scope.loadPost = function(scrollTop){
+              $.ajax({
+                url: $scope.urlLoadPost +'/' + $scope.startNumberPage,
+                type: "POST",
+                data: {},
+                error: function(){
+                  console.warn('not more posts');
+                },
+                success: function(data, textStatus, jqXHR){
+                  if(data !== '') {
+                    $scope.startNumberPage += 1;
+                    $("main").append(data);
+                  }
+                }
+              });
+            };
+
+            window.$scope = $scope;
+          });
+
+  myApp.directive('scrolly', function ($document) {
+    return {
+      restrict: 'A',
+      link: function (scope, element, attrs) {
+        var raw = element[0];
+        var init = false;
+        $document.bind('scroll', function () {
+          init = true;
+          scope.$apply(attrs.scrolly);
+          if ($(window).scrollTop()+$(window).outerHeight(true)+1>=$(document).outerHeight(true) && init) {
+            scope.$apply(attrs.scrolly)();
+          }
+        });
+      }
+    };
+  });
+
+</script>

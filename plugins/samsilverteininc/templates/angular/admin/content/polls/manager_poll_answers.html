@@ -1,0 +1,20 @@
+<script type="text/javascript">
+  angular.module('pencilblueApp', [])
+    .controller('PencilBlueController', function ($scope, $sce, $http, $window) {
+      ^angular_objects^
+      
+    $scope.tableHeaders = [{
+			name: 'USER',
+			field: 'user',
+			sortAsc: false,
+			sortDesc: false
+		}, {
+			name: 'VOTE',
+			field: 'message',
+			sortAsc: false,
+			sortDesc: false
+		}];
+      
+      window.$scope = $scope;
+    });
+</script>

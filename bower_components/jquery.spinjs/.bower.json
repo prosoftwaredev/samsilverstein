@@ -1,0 +1,27 @@
+{
+  "name": "jquery.spinjs",
+  "main": "./dist/jquery.spin.js",
+  "dependencies": {
+    "jquery": "latest",
+    "spin.js": "latest"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tdoherty/jQuery.SpinJS"
+  },
+  "homepage": "https://github.com/tdoherty/jQuery.SpinJS",
+  "_release": "8c4d107ae9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "8c4d107ae91878487fe0a620170a41b1635c0e09"
+  },
+  "_source": "git://github.com/tdoherty/jQuery.SpinJS.git",
+  "_target": "*",
+  "_originalSource": "jquery.spinjs"
+}

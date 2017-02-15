@@ -1,0 +1,1235 @@
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:33:41.311Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:33:43.012Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:33:55.942Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:33:56.927Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:34:01.323Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:34:01.445Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:34:15.291Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:36:49.320Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:36:49.995Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:36:50.068Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:36:50.111Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:36:55.668Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:37:17.989Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:37:18.687Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:37:18.749Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:37:18.789Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:37:20.683Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:37:20.860Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:37:20.971Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:37:29.783Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:37:29.796Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T18:37:49.314Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:38:03.943Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:38:04.239Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:38:04.247Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:38:04.411Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:38:04.412Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[false]","timestamp":"2017-02-14T18:38:05.026Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[false]","timestamp":"2017-02-14T18:38:30.809Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:39:09.477Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:39:10.097Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:39:10.162Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[false]","timestamp":"2017-02-14T18:39:10.555Z"}
+{"level":"warn","message":"PluginService: Plugin [Sam Silvertein Inc] failed to initialize. INITIALIZED=false","timestamp":"2017-02-14T18:39:10.556Z"}
+{"level":"error","message":"PluginService: The following error was produced while initializing the Sam Silvertein Inc plugin: TypeError: Cannot read property 'dirKey' of undefined\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/PushNotificationService.js:14:44)\n    at Function.SSIPluginModule.SSIPlugin.onStartup (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/ssi.js:444:93)\n    at Domain.<anonymous> (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/include/service/entities/plugin_service.js:1170:36)\n    at Domain.run (domain.js:228:14)\n    at /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/include/service/entities/plugin_service.js:1169:23\n    at /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/node_modules/async/lib/async.js:610:21\n    at /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/node_modules/async/lib/async.js:249:17\n    at iterate (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/node_modules/async/lib/async.js:149:13)\n    at /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/node_modules/async/lib/async.js:160:25\n    at /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/node_modules/async/lib/async.js:251:21","timestamp":"2017-02-14T18:39:10.558Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:39:10.585Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:41:48.038Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:41:48.785Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:41:48.863Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:41:50.256Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:41:50.331Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:42:06.872Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:42:06.880Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:42:11.923Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:42:12.158Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:42:12.171Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:42:12.297Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T18:42:12.299Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:42:12.407Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:42:25.220Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:42:25.225Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:42:43.863Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:42:44.502Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:42:44.585Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:42:45.502Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:42:45.577Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:43:15.253Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:43:27.222Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:43:27.922Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:43:28.000Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:43:28.994Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:43:29.393Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:43:30.075Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:43:30.149Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:43:30.986Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:43:31.066Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:43:34.848Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:43:35.523Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:43:35.606Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:43:36.571Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:43:36.654Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:43:40.924Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:43:41.604Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:43:41.684Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:43:42.654Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:43:42.731Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:43:52.821Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:43:53.496Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:43:53.590Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:43:54.534Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:43:54.602Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-14T18:44:19.392Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:44:25.298Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:44:25.984Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:44:26.061Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:44:27.036Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:44:27.109Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:44:28.970Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:44:28.972Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:44:29.337Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:44:30.023Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:44:30.094Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:44:31.005Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:44:31.080Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:44:37.643Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:44:38.004Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:44:38.705Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:44:38.774Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:44:39.822Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:44:39.900Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:44:41.111Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:44:41.493Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:44:42.175Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:44:42.248Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:44:43.287Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:44:43.353Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:44:49.064Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:44:49.457Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:44:50.138Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:44:50.205Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:44:51.188Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:44:51.250Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:45:15.033Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T18:45:15.038Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T18:45:15.409Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T18:45:16.098Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T18:45:16.168Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T18:45:16.996Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T18:45:17.050Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:01:26.725Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:01:27.380Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:01:27.459Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:01:28.308Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:01:28.379Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:01:32.031Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:01:32.719Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:01:32.802Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:01:33.674Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:01:33.743Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:04:43.904Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:04:44.876Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:04:45.004Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:04:45.924Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:04:45.979Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:05:12.092Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:05:12.741Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:05:12.814Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:05:13.641Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:05:13.719Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:05:18.073Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:05:18.708Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:05:18.789Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:05:19.616Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:05:19.674Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:07:12.646Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:07:13.286Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:07:13.383Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:07:14.231Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:07:14.310Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:12:42.638Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:12:43.273Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:12:43.351Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:12:44.212Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:12:44.272Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T19:13:24.953Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T19:13:24.962Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:13:30.959Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:13:31.658Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:13:31.772Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:13:32.739Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:13:32.817Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:14:00.411Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:14:01.046Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:14:01.124Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:14:02.027Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:14:02.109Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:14:37.930Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:14:38.585Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:14:38.658Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:14:39.507Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:14:39.571Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:28:25.721Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:28:28.338Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:28:28.399Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:28:32.102Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:28:32.165Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T19:28:33.146Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T19:28:33.149Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:28:45.277Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:28:46.057Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:28:46.134Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:28:47.023Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:28:47.084Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T19:29:22.680Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T19:29:22.688Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:29:28.772Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:29:29.403Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:29:29.473Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:29:30.314Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:29:30.393Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:30:31.628Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:30:32.258Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:30:32.324Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:30:33.240Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:30:33.324Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:33:25.814Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:33:26.453Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:33:26.516Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:33:27.516Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:33:27.571Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:36:17.330Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:36:17.980Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:36:18.042Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:36:18.915Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:36:18.992Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:36:49.219Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:36:49.857Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:36:49.922Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:36:50.847Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:36:50.924Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:41:09.472Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:41:10.104Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:41:10.182Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:41:11.081Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:41:11.141Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:41:37.863Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:41:38.502Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:41:38.575Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:41:39.401Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:41:39.478Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:42:06.417Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:42:07.075Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:42:07.153Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:42:08.083Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:42:08.150Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:42:16.716Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:42:17.343Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:42:17.418Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:42:18.224Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:42:18.288Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:46:51.999Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:46:52.645Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:46:52.719Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:46:53.550Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:46:53.633Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:47:11.184Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:47:11.805Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:47:11.879Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:47:12.688Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:47:12.776Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:51:34.018Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:51:34.643Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:51:34.726Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:51:35.599Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:51:35.672Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:57:08.324Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:57:08.955Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:57:09.030Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:57:11.914Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:57:12.540Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:57:12.618Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:57:13.431Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:57:13.514Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:57:22.924Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:57:23.556Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:57:23.631Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:57:24.439Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:57:24.504Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:57:30.352Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:57:30.995Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:57:31.068Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:57:31.874Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:57:31.946Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:57:45.189Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:57:45.848Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:57:45.923Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:57:46.799Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:57:46.869Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T19:59:50.100Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T19:59:50.724Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T19:59:50.801Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T19:59:51.613Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T19:59:51.669Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:00:09.515Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:00:10.159Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:00:10.232Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:00:11.158Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:00:11.248Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:01:09.026Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:01:09.668Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:01:09.742Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:01:10.572Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:01:10.639Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:01:13.548Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:01:14.188Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:01:14.261Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:01:15.135Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:01:15.213Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:01:49.726Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:01:50.425Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:01:50.515Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:01:51.466Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:01:51.536Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:02:59.529Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:03:00.160Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:03:00.234Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:03:01.055Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:03:01.107Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:04:40.901Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:04:41.581Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:04:41.657Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:04:42.489Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:05:30.501Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:05:32.205Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:05:32.819Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:05:32.894Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:05:33.726Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:05:33.790Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:05:59.757Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:06:00.393Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:06:00.470Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:06:01.790Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:06:02.416Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:06:02.490Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:06:03.353Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:06:03.409Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:06:04.917Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:06:05.554Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:06:05.629Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:06:06.901Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:06:07.530Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:06:07.610Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:06:08.427Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:06:08.487Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:07:27.223Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:07:27.278Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:07:32.252Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:07:32.262Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:08:24.042Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:08:24.693Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:08:24.768Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:08:25.623Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:08:25.700Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:08:27.652Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:08:40.009Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:08:40.033Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:08:42.516Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:08:42.536Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:09:09.372Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:09:10.024Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:09:10.100Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:09:10.940Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:09:10.995Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:24:06.870Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:24:07.654Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:24:07.779Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:24:08.740Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:24:08.794Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:24:12.059Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:24:28.358Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:24:28.999Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:24:29.074Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:24:29.915Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:24:29.981Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:30:12.627Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:30:13.404Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:30:25.782Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T20:30:26.358Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T20:30:27.116Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T20:30:27.122Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T20:30:27.151Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:30:27.192Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T20:30:28.169Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T20:30:28.185Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T20:30:45.300Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T20:31:02.586Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T20:31:03.192Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T20:31:03.199Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T20:31:03.401Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T20:31:03.404Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:31:04.393Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:31:16.234Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:31:16.238Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:31:54.068Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:31:54.713Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:31:54.791Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:31:55.669Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:31:55.732Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:32:06.065Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:32:06.101Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:32:20.520Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:32:20.539Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:33:58.156Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:33:58.825Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:33:58.898Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:33:59.805Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:33:59.869Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:34:25.528Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:34:25.534Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:34:36.861Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:35:02.307Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:35:02.308Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:42:01.780Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:42:01.784Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:44:18.768Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:44:19.418Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:44:19.494Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:44:20.343Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:44:20.422Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:44:21.347Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:44:21.350Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:47:22.287Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:47:22.939Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:47:23.019Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:47:23.977Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:47:24.037Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:47:25.323Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:47:25.326Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:49:59.405Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:50:00.055Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:50:00.131Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:50:01.052Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:50:01.133Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:50:04.024Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T20:50:14.892Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T20:50:15.533Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T20:50:15.612Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T20:50:16.547Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T20:50:16.598Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:50:47.350Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:50:47.401Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:50:52.485Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:50:52.507Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:18.169Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:18.180Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:46.457Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:46.462Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:50.877Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:50.879Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:52.497Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:52.499Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:53.913Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:53.915Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:55.025Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:55.026Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:56.038Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:56.041Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:57.023Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:57.026Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:58.188Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:58.190Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:59.037Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:51:59.041Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:00.230Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:00.233Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:01.198Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:01.201Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:02.170Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:02.172Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:03.237Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:52:03.238Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:57:53.203Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:57:53.219Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:58:03.684Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:58:03.704Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T20:58:45.884Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:09:28.887Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:11:52.482Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:12:45.146Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:12:45.151Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:16:24.014Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:16:24.770Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:16:24.870Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:16:25.709Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:16:25.790Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:16:53.461Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:16:53.507Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:17:08.372Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:17:27.593Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:17:28.256Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:17:28.328Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:17:29.227Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:17:29.282Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:20:16.993Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:20:17.623Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:20:17.702Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:20:18.519Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:20:18.598Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:20:21.729Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:20:22.363Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:20:22.437Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:20:23.278Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:20:23.349Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:20:31.712Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:20:31.715Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:20:56.207Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:20:56.856Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:20:56.935Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:20:57.755Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:20:57.811Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:21:07.890Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:21:07.896Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:21:19.422Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:21:20.101Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:21:20.209Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:21:21.072Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:21:21.113Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:21:21.122Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:21:36.721Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:21:37.424Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:21:37.513Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:21:39.506Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:21:40.375Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:21:40.521Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:21:41.416Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:21:41.482Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:21:44.073Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:21:44.077Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:23:50.994Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:23:51.735Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:23:51.810Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:23:52.651Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:23:52.714Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:24:52.894Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:24:53.525Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:24:53.601Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:24:54.422Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:24:54.476Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:24:57.052Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:24:57.685Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:24:57.763Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:24:58.579Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:24:58.643Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:25:01.296Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:25:01.949Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:25:02.027Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:25:02.899Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:25:02.974Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:25:03.376Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:25:03.392Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:25:13.397Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:25:14.187Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:25:14.306Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:25:15.484Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:25:15.541Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:30:20.343Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:30:20.994Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:30:21.067Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:30:21.921Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:30:22.001Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:36:29.840Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:36:29.847Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:37:06.696Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:37:07.456Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:37:07.575Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:37:08.456Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:37:08.526Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:37:10.281Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:37:10.287Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:37:18.316Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:37:18.963Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:37:19.037Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:37:20.037Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:37:20.105Z"}
+{"level":"info","message":"Removed temporary file: /tmp/upload_067743b576eb93ce9ab5fb694387e622","timestamp":"2017-02-14T21:38:44.143Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:06.621Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:06.635Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:15.198Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:15.202Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:20.854Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:20.857Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:23.609Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:23.612Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:24.738Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:24.740Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:29.114Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:29.115Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:31.330Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:31.332Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:36.370Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:36.371Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:40.626Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:40.628Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:44.302Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:47:44.305Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:48:29.694Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:48:29.747Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:48:33.099Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:48:33.135Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:49:52.920Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:01.921Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:01.925Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:05.864Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:05.869Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:10.755Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:10.758Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:12.157Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:12.162Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:13.021Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:13.025Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:13.964Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:13.967Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:18.267Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:18.269Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:20.996Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:20.998Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:23.757Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:23.760Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:26.356Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:26.359Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:28.544Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:28.548Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:29.521Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:29.525Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:30.875Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:30.877Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:31.999Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:32.004Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:33.150Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:33.152Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:34.286Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:34.287Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:42.950Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:42.952Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:46.657Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:46.659Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:47.782Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:47.784Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:48.873Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:50:48.877Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:51:37.867Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:51:43.481Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:51:55.009Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:52:25.296Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:52:28.289Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:52:28.370Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:52:32.363Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:52:32.438Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:36.675Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:36.677Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:38.151Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:38.154Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:39.473Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:39.475Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:40.516Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:40.519Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:47.826Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:52:47.871Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:55:04.606Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:55:32.768Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:55:33.451Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:55:33.531Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:55:34.475Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:55:34.560Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:55:35.400Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:55:35.410Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:55:39.339Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:55:39.349Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T21:56:03.768Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T21:56:04.446Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T21:56:04.569Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T21:56:05.452Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T21:56:05.506Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:09.389Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:09.393Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:10.973Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:10.980Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:12.090Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:12.096Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:13.410Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:13.413Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:14.777Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:14.780Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:15.931Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:15.935Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:44.263Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:49.036Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:56:55.726Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T21:57:13.802Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:05:40.403Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:05:47.216Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:21.980Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:33.980Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:33.983Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:36.346Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:36.350Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:41.183Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:41.187Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:43.518Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:43.520Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:45.112Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:45.116Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:46.059Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:46.062Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:47.101Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:47.104Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:48.090Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:48.093Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:49.349Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:49.351Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:50.275Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:50.279Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:51.429Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:51.432Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:52.376Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:52.378Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:53.262Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:53.265Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:54.239Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:54.242Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:55.455Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:06:55.456Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:07:05.168Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:07:05.172Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:07:11.523Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:07:11.527Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:13:53.861Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:13:53.866Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:13:55.282Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:13:55.282Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:13:57.864Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:13:57.867Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:14:36.093Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:14:36.131Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:14:43.073Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:14:43.076Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:14:46.999Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:14:47.003Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:15:21.211Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T22:16:08.148Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T22:16:10.992Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T22:16:11.073Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T22:16:14.964Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T22:16:15.024Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:23.338Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T22:16:36.277Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T22:16:36.958Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T22:16:37.063Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T22:16:37.952Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T22:16:38.043Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.095Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.116Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.124Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.128Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.129Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.155Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.291Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.330Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.334Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.392Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.396Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.401Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.453Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.511Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.513Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.602Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.638Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.704Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.729Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.768Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.789Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.835Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.881Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:38.959Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:39.007Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:39.128Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:39.174Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T22:16:39.218Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T22:17:30.385Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T22:17:31.202Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T22:17:31.379Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T22:17:32.528Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T22:17:32.784Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T22:17:51.774Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T22:17:52.510Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T22:17:52.583Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T22:17:53.464Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T22:17:53.522Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T22:18:38.947Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T22:18:39.589Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T22:18:39.666Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T22:18:40.657Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T22:18:40.742Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T22:44:03.869Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T22:44:07.420Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T22:44:07.495Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T22:44:11.425Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T22:44:11.494Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T22:46:49.503Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T22:46:50.230Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T22:47:03.103Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T22:47:03.837Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T22:47:08.448Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T22:47:08.623Z"}
+{"level":"warn","message":"RequestHandler: The active theme is not set.  Defaulting to 'pencilblue'","timestamp":"2017-02-14T22:47:23.199Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T22:47:37.758Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T22:47:38.311Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T22:47:38.325Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T22:47:38.555Z"}
+{"level":"warn","message":"PencilBlue: pb.plugins is deprecated.  Use new pb.PluginService instead","timestamp":"2017-02-14T22:47:38.557Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T22:47:39.528Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:21:52.386Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:21:52.390Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:22:05.297Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:22:05.378Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:22:08.726Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:22:08.902Z"}
+{"level":"info","message":"Removed temporary file: /tmp/upload_04215262b849378a89241990ebeb97ca","timestamp":"2017-02-14T23:23:45.038Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:24:31.732Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:24:48.349Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:24:48.350Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:24:51.946Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:24:51.949Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:24:57.501Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:24:57.503Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:25:02.666Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:25:02.669Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:25:46.230Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:26:17.157Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:26:22.801Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:26:22.804Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T23:29:10.554Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T23:29:12.928Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T23:29:13.015Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:29:16.193Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T23:29:16.203Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T23:29:16.292Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:29:16.416Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:29:16.524Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:29:16.737Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T23:30:15.438Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T23:30:16.099Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T23:30:16.174Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T23:30:17.032Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T23:30:17.105Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:30:18.758Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:30:18.779Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T23:30:38.190Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T23:30:38.825Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T23:30:38.897Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T23:30:39.770Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T23:30:39.834Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:30:41.820Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:30:41.822Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-14T23:33:17.724Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-14T23:33:18.436Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-14T23:33:18.522Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-14T23:33:19.383Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-14T23:33:19.443Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-14T23:33:48.449Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:33:53.952Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:33:53.954Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:06.774Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:06.802Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:06.843Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:06.848Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:22.156Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:22.159Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:24.352Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:24.361Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:24.376Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-14T23:34:24.380Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:07:40.060Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:07:40.150Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:09:06.652Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:09:06.682Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T00:09:26.228Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T00:09:29.226Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T00:09:29.319Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:09:33.272Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T00:09:33.299Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T00:09:33.418Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:29.440Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:29.468Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:32.571Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:32.578Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:43.878Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:43.887Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:43.914Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:43.921Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:51.976Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:51.982Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:55.466Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:55.474Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:55.500Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:10:55.504Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:11:00.236Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:11:00.238Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:11:19.252Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:11:19.272Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:42.981Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:48.461Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:55.026Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:55.029Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:58.050Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:58.060Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:58.073Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:12:58.079Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:03.811Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:03.812Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:28.214Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:28.216Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:30.409Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:30.417Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:33.153Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:33.158Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:34.622Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:34.626Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:35.673Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:35.675Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:36.649Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:36.652Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:38.048Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:38.050Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:39.484Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:39.487Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:48.710Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:48.719Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:49.636Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:49.639Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:50.733Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:50.734Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:51.743Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:51.749Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:52.672Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:52.675Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:53.696Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:13:53.700Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:37.541Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:37.543Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:38.672Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:38.675Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:46.102Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:50.526Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:50.530Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:52.107Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:52.111Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:55.359Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:55.363Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:56.211Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:18:56.215Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:19:01.159Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:19:01.162Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:19:03.142Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:19:03.148Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:19:16.957Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:19:44.768Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:12.428Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:12.433Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:13.803Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:13.807Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:13.827Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:13.832Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:14.930Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:14.937Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:16.402Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:16.404Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:16.446Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:16.448Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:16.922Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:16.925Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:18.403Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:18.408Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:18.446Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:18.448Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:18.606Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:18.612Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:19.489Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:19.491Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:19.516Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:19.520Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:19.711Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:19.713Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:23.475Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:23.478Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:25.548Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:25.552Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:27.914Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:27.918Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:28.105Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:28.106Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:31.086Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:31.086Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:32.534Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:32.539Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:33.687Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:33.691Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:34.860Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:34.868Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:36.304Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:36.308Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:37.609Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:37.612Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:40.939Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:40.942Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:43.445Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:20:43.448Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:22:45.208Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:22:45.210Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:01.183Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:01.190Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:05.076Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:05.079Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:06.356Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:06.362Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:07.835Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:07.837Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:09.113Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:09.115Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:13.565Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:13.573Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:13.593Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:13.616Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:35.160Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:23:47.307Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:50.449Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:50.452Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:52.174Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:52.177Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:53.292Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:53.295Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:54.388Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:54.391Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:55.098Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:55.100Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:56.117Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:56.119Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:58.355Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:23:58.357Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:24:45.201Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:24:57.178Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:25:02.146Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:25:02.608Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:25:02.769Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:25:02.946Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:25:03.811Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:25:03.815Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T00:30:06.297Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T00:30:09.755Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T00:30:09.968Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T00:30:14.264Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T00:30:14.438Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:14.491Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:14.504Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T00:30:21.996Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T00:30:22.631Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T00:30:22.707Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T00:30:23.560Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T00:30:23.634Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T00:30:37.117Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:40.425Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:40.429Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:44.028Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:44.031Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:44.086Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:44.091Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:44.689Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:44.692Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:45.756Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:45.758Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:45.811Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:45.814Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:47.579Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:47.584Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:49.359Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:49.367Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:49.388Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:49.393Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:59.585Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:30:59.588Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:00.701Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:00.704Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:02.186Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:02.188Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:03.632Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:03.635Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:05.312Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:05.314Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:05.357Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:05.360Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:07.013Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:07.016Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:07.401Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:31:07.404Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:38:08.288Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:38:08.333Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:38:08.530Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:38:08.571Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T00:53:50.712Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T00:53:52.838Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T00:53:52.903Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:53:55.534Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:53:55.541Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T00:53:55.546Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T00:53:55.729Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:53:58.687Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T00:53:58.688Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:10:48.028Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:10:48.040Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:10:48.095Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:10:48.147Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:13:11.949Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:13:12.734Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:13:12.864Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:13:13.718Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:13:13.776Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:14:46.737Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:14:46.748Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:14:50.911Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:14:50.914Z"}
+{"level":"warn","message":"DAO: getNotIDField is deprecated. Use getNotIdField instead","timestamp":"2017-02-15T01:14:56.604Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:15:01.449Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:15:01.456Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:15:03.528Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:15:03.532Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:15:15.276Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:15:15.933Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:15:16.011Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:15:16.959Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:15:17.632Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:15:17.710Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:15:18.654Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:15:18.721Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:16:26.617Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:16:27.256Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:16:27.335Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:16:28.172Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:16:28.237Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:17:06.182Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:17:06.842Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:17:06.921Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:17:07.759Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:17:07.816Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:45.365Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:45.377Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:47.226Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:47.229Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:49.433Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:49.434Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:20:53.509Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:20:54.144Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:20:54.220Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:20:55.066Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:20:55.124Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:57.484Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:20:57.488Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:21:51.211Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:21:51.875Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:21:51.958Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:21:52.817Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:21:52.894Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:21:57.332Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:21:57.339Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:22:41.030Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:22:41.739Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:22:41.817Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:22:54.551Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:22:55.213Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:22:55.287Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at Function.PluginServiceModule.PluginService.loadController (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/include/service/entities/plugin_service.js:2082:64)","timestamp":"2017-02-15T01:22:55.762Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/channals.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at ChannelsControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/channals.js:11:57)","timestamp":"2017-02-15T01:22:55.768Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/m_index.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at MIndexModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/m_index.js:11:57)","timestamp":"2017-02-15T01:22:55.775Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/one_question.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at new ManuController (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/manu.js:12:65)\n    at QuestionModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/one_question.js:14:24)","timestamp":"2017-02-15T01:22:55.797Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/AllContentService.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/AllContentService.js:7:58)","timestamp":"2017-02-15T01:22:55.803Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at Function.PluginServiceModule.PluginService.loadController (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/include/service/entities/plugin_service.js:2082:39)\n    at /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/include/service/entities/plugin_service.js:2055:35","timestamp":"2017-02-15T01:22:55.806Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/users/import_users.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/users/import_users.js:10:63)","timestamp":"2017-02-15T01:22:55.819Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/users/m_user_form.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/users/m_user_form.js:23:64)","timestamp":"2017-02-15T01:22:55.822Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/users/manage_users.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/users/manage_users.js:27:63)","timestamp":"2017-02-15T01:22:55.825Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/articles/ss_manage_articles.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/articles/ss_manage_articles.js:26:66)","timestamp":"2017-02-15T01:22:56.115Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/channel_content.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/channel_content.js:7:66)","timestamp":"2017-02-15T01:22:56.119Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/channel_copy.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/channel_copy.js:6:66)","timestamp":"2017-02-15T01:22:56.122Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/channel_form.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/channel_form.js:25:66)","timestamp":"2017-02-15T01:22:56.126Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/copy_channel.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/copy_channel.js:9:68)","timestamp":"2017-02-15T01:22:56.129Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/manage_channel.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/channel/manage_channel.js:7:66)","timestamp":"2017-02-15T01:22:56.132Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/comments/ss_manage_comments.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/comments/ss_manage_comments.js:22:67)","timestamp":"2017-02-15T01:22:56.143Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/content/manage_content.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/content/manage_content.js:26:67)","timestamp":"2017-02-15T01:22:56.148Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/notifications/form_notification.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/notifications/form_notification.js:7:63)","timestamp":"2017-02-15T01:22:56.155Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/notifications/manage_push_notification.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/notifications/manage_push_notification.js:11:66)","timestamp":"2017-02-15T01:22:56.159Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/organizations/manage_organization.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at AdminIndexControllerModule (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/baseController.js:6:63)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/organizations/manage_organization.js:7:67)","timestamp":"2017-02-15T01:22:56.162Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/questions/question_form.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at new QuestionService (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/QuestionService.js:16:54)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/admin/content/questions/question_form.js:32:25)","timestamp":"2017-02-15T01:22:56.177Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/actions/admin/content/question/delete_answer.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at new QuestionService (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/QuestionService.js:16:54)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/actions/admin/content/question/delete_answer.js:13:25)","timestamp":"2017-02-15T01:22:56.191Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/actions/admin/content/question/delete_question.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at new QuestionService (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/QuestionService.js:16:54)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/actions/admin/content/question/delete_question.js:13:25)","timestamp":"2017-02-15T01:22:56.194Z"}
+{"level":"warn","message":"PluginService: Failed to load controller at [/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/actions/admin/content/question/edit_question.js]: /home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/ChannelService.js:520\n\tconsole.log(media[]);\n\t                  ^\nSyntaxError: Unexpected token ]\n    at Object.exports.runInThisContext (vm.js:76:16)\n    at Module._compile (module.js:528:28)\n    at Object.Module._extensions..js (module.js:565:10)\n    at Module.load (module.js:473:32)\n    at tryModuleLoad (module.js:432:12)\n    at Function.Module._load (module.js:424:3)\n    at Module.require (module.js:483:17)\n    at require (internal/module.js:20:19)\n    at new QuestionService (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/services/QuestionService.js:16:54)\n    at module.exports (/home/dev/workspace1/sam-silverstein/sam-silverstein/app/server/plugins/samsilverteininc/controllers/actions/admin/content/question/edit_question.js:13:24)","timestamp":"2017-02-15T01:22:56.197Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:22:56.204Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:22:56.270Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:23:06.202Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:23:06.871Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:23:06.984Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:23:07.852Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:23:07.923Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:23:09.766Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:23:09.772Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:23:31.630Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:23:32.296Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:23:32.373Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:23:33.248Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:23:33.314Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:23:36.345Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:23:36.350Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:24:56.393Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:24:57.037Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:24:57.115Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:24:57.947Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:24:58.031Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:25:01.657Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:25:02.310Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:25:02.388Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:25:03.225Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:25:03.301Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:26:06.034Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:26:06.686Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:26:06.763Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:26:07.615Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:26:07.671Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:26:08.980Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:26:08.989Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:26:12.833Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:26:12.861Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T01:32:09.212Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T01:32:09.852Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T01:32:09.932Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T01:32:10.761Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T01:32:10.827Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:32:48.751Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T01:32:48.767Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T04:19:08.390Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T04:19:09.046Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T04:19:09.120Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T04:19:10.068Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T04:19:10.162Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T04:19:34.482Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T04:19:35.145Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T04:19:35.220Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T04:19:36.066Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T04:19:36.137Z"}
+{"level":"info","message":"SystemStartup: Log Level is: info","timestamp":"2017-02-15T04:19:59.186Z"}
+{"level":"info","message":"PencilBlue: Ensuring indices...","timestamp":"2017-02-15T04:19:59.842Z"}
+{"level":"info","message":"PencilBlue: Sam Silvertein Inc running at site root [http://localhost:8000] on port [8000]","timestamp":"2017-02-15T04:19:59.921Z"}
+{"level":"info","message":"PluginService: Initialized plugin Sam Silvertein Inc (samsilverteininc). RESULT=[true]","timestamp":"2017-02-15T04:20:00.820Z"}
+{"level":"info","message":"PencilBlue: Ready to run!","timestamp":"2017-02-15T04:20:00.899Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T04:20:15.728Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T04:20:15.783Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T04:20:29.579Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T04:20:42.336Z"}
+{"level":"warn","message":"DAO: getObjectID is deprecated. Use getObjectId instead","timestamp":"2017-02-15T04:20:42.352Z"}

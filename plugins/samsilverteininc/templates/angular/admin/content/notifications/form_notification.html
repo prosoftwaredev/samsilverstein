@@ -1,0 +1,85 @@
+<script type="text/javascript" src="/js/angular/filters/parsable_date.js"></script>
+<script type="text/javascript">
+  angular.module('pencilblueApp', [])
+		  .controller('PencilBlueController', function ($scope, $sce, $http, $window, $timeout, $filter) {
+			^angular_objects^
+					
+			$scope.notificationForm.from = 'Sam Silverstein';
+			
+			$scope.notificationForm.send_date = $filter('date')(new Date(), 'MM-dd-yyyy HH:mm');
+
+			$scope.toggleToken = function (tok) {
+			  var tokenId = tok._id;
+			  $scope.tokens.forEach(function (token, i, tokens) {
+				var status;
+				if (token._id == tokenId) {
+				  if (token.select) {
+					status = false;
+				  } else {
+					status = true;
+				  }
+				  token.select = status;
+				}
+				;
+			  });
+			};
+
+			$scope.toggleOrganization = function (org) {
+			  var organizationId = org._id;
+			  $scope.organizations.forEach(function (organization, i, organizations) {
+				var status;
+				if (organization._id == organizationId) {
+				  if (organization.select) {
+					status = false;
+				  } else {
+					status = true;
+				  }
+				  organization.select = status;
+				  $scope.tokens.forEach(function (token, iToken, tokens) {
+					if (token.userDetails.organization == organizationId)
+					  token.select = status;
+				  });
+				}
+				;
+			  });
+			};
+
+			$scope.setDateToNow = function (fieldName) {
+			  $scope.notificationForm.send_date = $filter('date')(new Date(), 'MM-dd-yyyy HH:mm');
+			};
+
+			$scope.sendNotification = function (notificationForm) {
+
+			  if (!notificationForm.message || !notificationForm.from)
+				return false;
+
+			  var selectedTokens = $scope.tokens.filter(function (token) {
+				return token.select;
+			  });
+
+			  var sendNotification = {
+				tokens: selectedTokens,
+				from: notificationForm.from,
+				message: notificationForm.message,
+				send_date: notificationForm.send_date
+			  };
+
+
+			  $http.post('/actions/admin/content/notifications/push_notification/send', sendNotification)
+					  .success(function (result) {
+						$scope.successMessage = result.message;
+					  })
+					  .error(function (error, status) {
+						$scope.errorMessage = error.message;
+					  });
+			};
+
+			$('.date_field').datetimepicker({
+			  format: 'm-d-Y H:i',
+			  mask:true,
+			  timepicker:false,
+			});
+
+			window.$scope = $scope;
+		  });
+</script>

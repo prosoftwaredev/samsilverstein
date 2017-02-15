@@ -1,0 +1,55 @@
+<div ng-controller="UploadPhotoController">
+    <div class="form-group">
+        <label>^loc_HERO_IMAGE^</label>
+        <div ng-bind-html="getPhotoPreviewHTML()"></div>
+    </div>
+    <div class="form-group">
+        <button type="button" class="btn btn-info" ng-click="showMediaModal(false)">
+            <i class="fa fa-link"></i>&nbsp;^loc_LINK_TO_IMAGE^...
+        </button>
+        <button type="button" class="btn btn-info" ng-click="showMediaModal(true)">
+            <i class="fa fa-upload"></i>&nbsp;^loc_UPLOAD_IMAGE^...
+        </button>
+    </div>
+    <div class="modal fade" id="photo_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" ng-if="photo.isFile">
+                    ^loc_UPLOAD_IMAGE^
+                </div>
+                <div class="modal-header" ng-if="!photo.isFile">
+                    ^loc_LINK_TO_IMAGE^
+                </div>
+                <div class="modal-body">
+                    <span ng-if="photo.isFile">
+                        <div class="progress progress-striped active" ng-if="uploading">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="{{uploadPercent}}" aria-valuemin="0" aria-valuemax="100" style="width: 0%"></div>
+                        </div>
+                        <span class="btn btn-success fileinput-button" ng-disabled="uploading">
+                            <i class="fa" ng-class="{'fa-plus': !uploading, 'fa-circle-o-notch fa-spin': uploading}"></i>
+                            <span>^loc_SELECT_FILE^...</span>
+                            <input type="file" ng-file-select="onFileSelect($files)" accept=".jpg,.jpeg,.png,.gif,.svg,.webp"></input>
+                        </span>
+                        <div class="file_drop" style="margin-bottom: 1em" ng-file-drop="onFileSelect($files)" ng-file-drop-available="dropSupported=true" ng-file-drag-over-class="file_drop_hover" ng-show="dropSupported && !uploading">Drop image files here</div>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            <i class="fa fa-ban"></i>&nbsp;^loc_CANCEL^
+                        </button>
+                    </span>
+                    <div ng-if="!photo.isFile">
+                        <div class="form-group">
+                            <label>^loc_IMAGE_URL^</label>
+                            <input type="text" class="form-control" ng-model="photo.link" placeholder="^loc_MEDIA_URL_PLACEHOLDER^"></input>
+                        </div>
+                        <button type="button" class="btn btn-primary" ng-click="loadMediaLink()" ng-disabled="!photo.link.length || loadingLink">
+                            <i class="fa" ng-class="{'fa-link': !loadingLink, 'fa-circle-o-notch fa-spin': loadingLink}"></i>&nbsp;^loc_LOAD_LINK^
+                        </button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">
+                            <i class="fa fa-ban"></i>&nbsp;^loc_CANCEL^
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+^tmp_angular=admin=elements=upload_and_link_photo^

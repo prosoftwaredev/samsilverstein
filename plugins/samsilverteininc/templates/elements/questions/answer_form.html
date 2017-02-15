@@ -1,0 +1,31 @@
+<div class="wrap-article-content">
+
+  <form class="comment_form ng-pristine ng-valid" ng-if='noAnswered'>
+    <fieldset>
+      <div id="comment_error_1" class="panel panel-danger" style="display: none">
+        <div class="panel-heading">
+          There was an error submitting your comment
+        </div>
+      </div>
+      <div ng-if='successMessage'>
+        {{successMessage}}
+      </div>
+      <div class="form-group">
+        <textarea id="comment_content_1" ng-model="answer.message" class="form-control" ng-change="changeMessage(answer.message)" required></textarea>
+      </div>
+      <button id="comment_submit_button_1" type="button" class="btn btn-primary" ng-click="save(answer)" ng-if='isValid'>
+        Submit
+      </button>
+    </fieldset>
+  </form>
+
+  <div ng-if="answered" class="answerOfquestion">
+    <div class="headerAnswer">
+      You's answered:
+    </div>
+    <div>
+      {{answered.message}}
+    </div>
+  </div>
+
+</div>

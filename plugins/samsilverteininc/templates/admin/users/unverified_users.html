@@ -1,0 +1,41 @@
+^tmp_admin=head^
+<div class="col-md-9">
+    ^tmp_admin=elements=error_success^
+    ^tmp_admin=elements=sub_nav^
+    ^tmp_admin=elements=search_input^
+    <div class="table_container">
+        <table id="users_table" class="table table-responsive table-condensed">
+            ^tmp_admin=elements=table_headers^
+            <tr ng-repeat="user in users track by user._id" ng-if="!user.hidden && !user.paginated">
+                <td><a href="#" ng-click="confirmVerification(user)"><i class="fa fa-check"></i></a></td>
+                <td ng-bind="user.username"></td>
+                <td ng-bind="user.first_name + ' ' + user.last_name"></td>
+                <td ng-bind="user.email"></td>
+                <td ng-bind="user.created | date: 'yyyy-MM-dd HH:mm'"></td>
+                <td><a href="#" ng-click="confirmDelete(user)"><i class="fa fa-trash"></i></a></td>
+            </tr>
+        </table>
+    </div>
+    ^tmp_admin=elements=pagination^
+    ^tmp_admin=elements=delete_modal^
+    <div class="modal fade" id="confirm_verification_modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    ^loc_CONFIRM_VERIFY^ <span style="font-style: italic" ng-bind="objectToVerify[deleteNameKey]"></span>?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal" ng-disabled="verifying">
+                        <i class="fa fa-ban"></i>&nbsp;^loc_CANCEL^
+                    </button>
+                    <button type="button" class="btn btn-success" ng-click="verifyObject()" ng-disabled="verifying">
+                        <i class="fa fa-check-circle"></i>&nbsp;^loc_VERIFY^&nbsp;<i class="fa fa-spinner fa-spin" ng-if="verifying"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+^tmp_angular=admin=users=unverified_users^
+^tmp_admin=footer^
